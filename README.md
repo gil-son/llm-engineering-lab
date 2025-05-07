@@ -20,7 +20,45 @@ It simplifies building apps like:
 - Document Q&A systems
 - LLM-powered agents and workflows
 
----
+## 🧭 Architecture Overview
+
+A typical LangChain-based generative AI application flow can be visualized as follows:
+
+```plaintext
+[User]
+   │
+   ▼
+[User Question]
+   │
+   ▼
+[Generative AI Application]
+   ├── Retrieves Context from → [Data Source]
+   ├── Uses Prompt Template → [Template with Question + Context]
+   │
+   ▼
+Sends to
+   ▼
+[LLM API (e.g., OpenAI, Anthropic)]
+   │
+   ▼
+[Response/Answer]
+   │
+   ▼
+[Returned to User]
+```
+### Key Steps:
+- User submits a query.
+- Application fetches relevant data and builds a prompt.
+- Prompt includes user input + context (e.g., from a document or DB).
+- LLM API processes the prompt and returns a response.
+- Response is delivered to the user.
+
+### This architecture is commonly used in:
+
+- Retrieval-Augmented Generation (RAG) systems
+- Document Q&A bots
+- Context-aware chat assistants
+There are many different ways to build with LangChain depending on your use case—from simple chains to full agents interacting with APIs and tools.
 
 ## ⚙️ Features
 
