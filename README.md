@@ -55,10 +55,23 @@ Sends to
 
 ### This architecture is commonly used in:
 
-- Retrieval-Augmented Generation (RAG) systems
-- Document Q&A bots
-- Context-aware chat assistants
-There are many different ways to build with LangChain depending on your use case—from simple chains to full agents interacting with APIs and tools.
+- 🔁 **Retrieval-Augmented Generation (RAG) systems**: Enhance LLMs with relevant external data to improve response accuracy.
+- 📄 **Document Q&A bots**: Answer user questions based on the content of documents.
+- 💬 **Context-aware chat assistants**: Maintain memory and context to hold more natural conversations.
+- 🔍 **ReAct**: Use reasoning and action steps to solve tasks step-by-step.
+- 🛠 **Tool Calling**: Allow LLMs to invoke external tools like APIs or calculators.
+- 🔗 **LangGraph (graph-based workflows)**: Structure complex tasks using nodes and edges for better control flow.
+- 🤖 **Multi-agent systems**: Coordinate multiple LLM agents to collaborate on problem-solving.
+
+It’s also possible to combine multiple approaches depending on your use case. LangChain supports a variety of patterns—from simple prompt chains to complex agents that interact with APIs and tools.
+
+### Other Frameworks for Building Generative Applications:
+- Semantic Kernel (Microsoft)
+   - Focused on C#
+- Llama Index
+   - Focused on RAG (Retrieval-Augmented Generation)
+- LangChain
+   - General-purpose framework
 
 ## ⚙️ Features
 
