@@ -4,6 +4,7 @@ import langchain
 from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
+from langchain_core.prompts import ChatPromptTemplate
 
 # Disable LangChain cache
 langchain.cache = None
@@ -38,6 +39,7 @@ messages = [
 the_model = ChatOpenAI(model="gpt-4.1-nano", temperature=0.7)
 
 parser = StrOutputParser()
+
 chain = the_model | parser
 
 """
@@ -46,6 +48,17 @@ Equivalent to the following sequential calls:
     2. text = parser.invoke(output)
 """
 
+message_template = ChatPromptTemplate.from_messages([
+    ("system", "Translate the next text to {idiom}"),
+    ("user", "{text}")
+])
+
+print(message_template.invoke({"idiom": "Franch", "text": "I love pizza!"}))
+
+chain = message_template | the_model | parser
+
+text = chain.invoke({"idiom": "Franch", "text": "I love pizza!"})
+
 # Invoke chain
-text = chain.invoke(messages)
+
 print("\noutput:\n", text)
