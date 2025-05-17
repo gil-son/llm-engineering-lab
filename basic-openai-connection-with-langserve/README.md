@@ -52,7 +52,7 @@ Make sure you have a valid `chain` defined in `thecode.py`.
 Then start the server:
 
 ```bash
-python main.py
+python thelangserve.py
 ```
 
 The API will be available at:
@@ -65,41 +65,12 @@ You can explore:
 
 - LangServe Playground UI: [http://localhost:8000/translator/playground](http://localhost:8000/translator/playground)
 
----
-
 ## 🧠 How It Works
 
 - Loads API key securely using `dotenv`
 - Uses LangChain's `ChatPromptTemplate`, `ChatOpenAI`, and `StrOutputParser`
 - Exposes the chain using LangServe’s `add_routes()` function
 - Implements a FastAPI server to serve the translation chain
-
----
-
-## 📄 Example Output
-
-### Request
-
-**POST** `/translator/invoke`
-
-```json
-{
-  "input": {
-    "idiom": "French",
-    "text": "I love pizza!"
-  }
-}
-```
-
-### Response
-
-```json
-{
-  "output": "J'adore la pizza !"
-}
-```
-
----
 
 ## 🛠️ Notes
 
