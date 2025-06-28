@@ -198,12 +198,3 @@ It’s also possible to combine multiple approaches depending on your use case. 
   - REST APIs
   - Search engines (e.g., SerpAPI)
 </details>
-
----
-
-## 🚀 Getting Started
-
-### 1. Install Dependencies
-
-```bash
-pip install langchain openai
