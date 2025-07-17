@@ -1,4 +1,4 @@
-# 🤖 LangChain
+# 05-2-LangChain-Concepts
 
 **LangChain** is a framework for developing applications powered by large language models (LLMs). LangChain provides building blocks to connect LLMs with tools like APIs, vector stores, memory, and more, enabling complex, intelligent applications like chatbots, agents, and search systems.
 
