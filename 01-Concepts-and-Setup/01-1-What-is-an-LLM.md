@@ -13,7 +13,7 @@ LLMs are at the core of modern AI applications like ChatGPT, Claude, and Google 
 
 ---
 
-<details><summary> <h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/4133/4133589.png" width="5%">What problems do LLMs solve?</a></h3></summary>
+<details><summary> <h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/4133/4133589.png" width="5%"></a>What problems do LLMs solve?</h3></summary>
   
 LLMs help address a range of language-related challenges:
 
@@ -26,7 +26,7 @@ LLMs help address a range of language-related challenges:
 
 ---
 
-<details><summary><h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3588/3588592.png" width="5%">What are the benefits of LLMs?</a></h3></summary>
+<details><summary><h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3588/3588592.png" width="5%"></a>What are the benefits of LLMs?</h3></summary>
 
 Key advantages of using LLMs include:
 
@@ -39,7 +39,7 @@ Key advantages of using LLMs include:
 
 ---
 
-<details><summary><h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1705/1705312.png" width="5%">How do LLMs work?</a></h3></summary>
+<details><summary><h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1705/1705312.png" width="5%"></a>How do LLMs work?</h3></summary>
 
 LLMs are typically based on the **Transformer architecture**. They are trained on massive text datasets to learn statistical patterns of language. Once trained, they use attention mechanisms to generate context-aware responses based on the user’s prompt. LLMs can be fine-tuned or used via **prompt engineering**, **retrieval-augmented generation (RAG)**, or **agent-based systems** to complete more complex tasks.
 
@@ -89,7 +89,7 @@ graph TD
 
 ---
 
-<details><summary><h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2833/2833807.png" width="5%">What are typical use cases for LLMs?</a></h3></summary>
+<details><summary><h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2833/2833807.png" width="5%"></a>What are typical use cases for LLMs?</h3></summary>
 
 Popular applications of LLMs include:
 
@@ -103,7 +103,7 @@ Popular applications of LLMs include:
 
 ---
 
-<details><summary><h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2965/2965363.png" width="5%"> Videos</a></h3></summary>
+<details><summary><h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2965/2965363.png" width="5%"></a> Videos</h3></summary>
   <div align="center">
     <a href="https://www.youtube.com/watch?v=5sLYAQS9sWQ&t" target="_blank">
         <img width="640" height="360" src="https://i.ytimg.com/vi/5sLYAQS9sWQ/maxresdefault.jpg"/>
