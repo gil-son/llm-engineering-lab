@@ -45,12 +45,13 @@ llm-engineering-lab/
 │   ├── 01-2-Key-Terms.md                          # Glossary of essential LLM terms like token, prompt, inference
 │   └── 01-3-Environment-Setup.md                  # Guide to setting up Python environment, APIs, and dependencies
 │
-├── 02-NLP-NLU-NLG/                                # Foundation of natural language processing fields
+├── 02-NLP-NLU-NLG/                                
 │   ├── 02-1-Tokenization.md                       # Tokenization methods: BPE, WordPiece, SentencePiece
-│   ├── 02-2-NLP-Basics.md                         # Basic text preprocessing and normalization techniques
-│   ├── 02-3-NLU-Intro.md                          # Introduction to intent detection and entity extraction
-│   ├── 02-4-NLG-Overview.md                       # Overview of rule-based and neural language generation
-│   └── 02-5-Applications-in-LLMs.md               # How LLMs perform NLP, NLU, and NLG tasks
+│   ├── 02-2-Embeddings.md                         # From one-hot to contextual: understanding word and token embeddings
+│   ├── 02-3-NLP-Basics.md                         # Basic text preprocessing and normalization techniques
+│   ├── 02-4-NLU-Intro.md                          # Introduction to intent detection and entity extraction
+│   ├── 02-5-NLG-Overview.md                       # Overview of rule-based and neural language generation
+│   └── 02-6-Applications-in-LLMs.md               # How LLMs perform NLP, NLU, and NLG tasks
 │
 ├── 03-LLM-Fundamentals/                           # Understanding architectures and training of LLMs
 │   ├── 03-1-LLM-Architectures.md                  # Overview of Transformer-based models like GPT and LLaMA
