@@ -70,9 +70,10 @@ llm-engineering-lab/
 │
 ├── 04-RAG-Pipeline/                               # Concepts and tools for retrieval-augmented generation
 │   ├── 04-1-RAG-Concepts.md                       # Introduction to RAG and its practical benefits
-│   ├── 04-2-Vector-Databases/                      # Integration with vector similarity databases
-│   │   ├── Weaviate-Integration.md                # Setup, indexing, and querying with Weaviate
-│   │   └── FAISS-Usage.md                         # Local similarity search using FAISS
+│   ├── 04-2-Vector-Databases/                     # Integration with vector similarity databases
+│   │   ├──04-2-1-Vector-Databases.md              # Vector Databases concepts      
+│   │   ├──04-2-2-Weaviate-Integration.md          # Setup, indexing, and querying with Weaviate
+│   │   └──04-2-3-FAISS-Usage.md                   # Local similarity search using FAISS
 │   ├── 04-3-Chunking-and-Embedding.md             # Best practices for text chunking and embeddings
 │   └── 04-4-Retrieval-Strategies.md               # Dense, sparse, and hybrid retrieval methods explained
 │
