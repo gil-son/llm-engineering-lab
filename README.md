@@ -55,10 +55,10 @@ llm-engineering-lab/
 │   │   ├── 02-2-5-Text-Splitting.md              # Chunking, sliding windows, and recursive character splitting
 │   │   ├── 02-2-6-Embedding-Models.md            # Overview of popular models: OpenAI, Instructor, MiniLM, etc.
 │   │   └── 02-2-7-Similarity-Search.md           # How nearest neighbor search is used with vector databases
-│   ├── 02-4-NLP-Basics.md                         # Basic text preprocessing and normalization techniques
-│   ├── 02-5-NLU-Intro.md                          # Introduction to intent detection and entity extraction
-│   ├── 02-6-NLG-Overview.md                       # Overview of rule-based and neural language generation
-│   └── 02-7-Applications-in-LLMs.md               # How LLMs perform NLP, NLU, and NLG tasks
+│   ├── 02-3-NLP-Basics.md                         # Basic text preprocessing and normalization techniques
+│   ├── 02-4-NLU-Intro.md                          # Introduction to intent detection and entity extraction
+│   ├── 02-5-NLG-Overview.md                       # Overview of rule-based and neural language generation
+│   └── 02-6-Applications-in-LLMs.md               # How LLMs perform NLP, NLU, and NLG tasks
 │
 ├── 03-LLM-Fundamentals/                           # Understanding architectures and training of LLMs
 │   ├── 03-1-LLM-Architectures.md                  # Overview of Transformer-based models like GPT and LLaMA
