@@ -47,8 +47,14 @@ llm-engineering-lab/
 │
 ├── 02-NLP-NLU-NLG/                                
 │   ├── 02-1-Tokenization.md                       # Tokenization methods: BPE, WordPiece, SentencePiece
-│   ├── 02-2-Vectors.md                            # What vectors are, why they matter in NLP, similarity & directions
-│   ├── 02-3-Embeddings.md                         # From one-hot to contextual: understanding word and token embeddings
+│   ├── 02-2-Vector/
+│   │   ├── 02-2-1-Vectors.md                     # What are vector spaces? Cosine similarity, distance metrics, etc.
+│   │   ├── 02-2-2-Embeddings.md                  # One-hot, word2vec, transformer-based embeddings
+│   │   ├── 02-2-3-Positional-Encoding.md         # How transformers encode word order in embeddings
+│   │   ├── 02-2-4-Ingesting-Documents.md         # Preparing raw documents for embedding pipelines
+│   │   ├── 02-2-5-Text-Splitting.md              # Chunking, sliding windows, and recursive character splitting
+│   │   ├── 02-2-6-Embedding-Models.md            # Overview of popular models: OpenAI, Instructor, MiniLM, etc.
+│   │   └── 02-2-7-Similarity-Search.md           # How nearest neighbor search is used with vector databases
 │   ├── 02-4-NLP-Basics.md                         # Basic text preprocessing and normalization techniques
 │   ├── 02-5-NLU-Intro.md                          # Introduction to intent detection and entity extraction
 │   ├── 02-6-NLG-Overview.md                       # Overview of rule-based and neural language generation
@@ -58,6 +64,9 @@ llm-engineering-lab/
 │   ├── 03-1-LLM-Architectures.md                  # Overview of Transformer-based models like GPT and LLaMA
 │   ├── 03-2-LLM-Fine-tuning.md                    # Techniques and strategies for fine-tuning LLMs
 │   ├── 03-3-LLM-Evaluation.md                     # Metrics and best practices to evaluate LLM performance
+│   ├── 03-4-Pretraining-and-Objectives.md         # Fundamentals of pretraining tasks and objectives for LLMs
+│   ├── 03-5-Instruction-Tuning.md                 # Fine-tuning models to follow human instructions effectively
+│   └── 03-6-RLHF.md                               # Reinforcement learning with human feedback to align models
 │
 ├── 04-RAG-Pipeline/                               # Concepts and tools for retrieval-augmented generation
 │   ├── 04-1-RAG-Concepts.md                       # Introduction to RAG and its practical benefits
@@ -96,6 +105,16 @@ llm-engineering-lab/
 │   ├── 09-2-Voice-to-Text-Text-to-Voice.md           # Techniques for speech-to-text and text-to-speech integration
 │   ├── 09-3-Dialogue-Management-in-IVR.md            # Managing conversational flows with LLMs in IVR
 │   └── 09-4-Orchestration-Comparison.md              # Comparing LangChain and Semantic Kernel for IVR orchestration
+│
+├── 10-LLM-Data-Engineering/                       # Managing data lifecycle for LLM training
+│   ├── 10-1-Dataset-Collection.md                  # Methods for gathering high-quality training data
+│   ├── 10-2-Data-Cleaning-and-Filtering.md         # Cleaning and filtering raw data for consistency
+│   └── 10-3-Dataset-Formatting.md                  # Preparing and formatting datasets for model training
+│
+├── 11-Prompt-Engineering/                         # Designing prompts to optimize LLM responses
+│   ├── 11-1-Zero-Shot-One-Shot-Few-Shot.md        # Prompting with varying numbers of examples
+│   ├── 11-2-Chain-of-Thought.md                    # Techniques to encourage step-by-step reasoning in models
+│   └── 11-3-Prompt-Tuning-vs-Prefix-Tuning.md     # Lightweight methods to adapt models via prompts
 │
 ├── projects/                                        # Hands-on projects to apply concepts
 │   ├── 01-basic-rag/
