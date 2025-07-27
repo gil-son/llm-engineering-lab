@@ -47,11 +47,12 @@ llm-engineering-lab/
 │
 ├── 02-NLP-NLU-NLG/                                
 │   ├── 02-1-Tokenization.md                       # Tokenization methods: BPE, WordPiece, SentencePiece
-│   ├── 02-2-Embeddings.md                         # From one-hot to contextual: understanding word and token embeddings
-│   ├── 02-3-NLP-Basics.md                         # Basic text preprocessing and normalization techniques
-│   ├── 02-4-NLU-Intro.md                          # Introduction to intent detection and entity extraction
-│   ├── 02-5-NLG-Overview.md                       # Overview of rule-based and neural language generation
-│   └── 02-6-Applications-in-LLMs.md               # How LLMs perform NLP, NLU, and NLG tasks
+│   ├── 02-2-Vectors.md                            # What vectors are, why they matter in NLP, similarity & directions
+│   ├── 02-3-Embeddings.md                         # From one-hot to contextual: understanding word and token embeddings
+│   ├── 02-4-NLP-Basics.md                         # Basic text preprocessing and normalization techniques
+│   ├── 02-5-NLU-Intro.md                          # Introduction to intent detection and entity extraction
+│   ├── 02-6-NLG-Overview.md                       # Overview of rule-based and neural language generation
+│   └── 02-7-Applications-in-LLMs.md               # How LLMs perform NLP, NLU, and NLG tasks
 │
 ├── 03-LLM-Fundamentals/                           # Understanding architectures and training of LLMs
 │   ├── 03-1-LLM-Architectures.md                  # Overview of Transformer-based models like GPT and LLaMA
