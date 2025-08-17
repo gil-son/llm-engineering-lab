@@ -118,10 +118,11 @@ llm-engineering-lab/
 │   └── 11-3-Prompt-Tuning-vs-Prefix-Tuning.md     # Lightweight methods to adapt models via prompts
 │
 ├── projects/                                        # Hands-on projects to apply concepts
-│   ├── 01-basic-rag/
-│   ├── 02-weaviate-rag/
-│   ├── 03-langchain-agent/
-│   └── 04-semantic-kernel-bot/
+│   ├── 01-mini-gpt-char-transformer-lm/
+│   ├── 02-basic-rag/
+│   ├── 03-weaviate-rag/
+│   ├── 04-langchain-agent/
+│   └── 05-semantic-kernel-bot/
 │
 ├── notebooks/                                       # Jupyter notebooks for experiments and demos
 │   ├── langchain_intro.ipynb
