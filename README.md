@@ -119,7 +119,7 @@ llm-engineering-lab/
 │
 ├── projects/                                        # Hands-on projects to apply concepts
 │   ├── 01-mini-gpt-char-transformer-lm/
-│   ├── 02-basic-rag/
+│   ├── 02-genesis_transformer_lm/
 │   ├── 03-weaviate-rag/
 │   ├── 04-langchain-agent/
 │   └── 05-semantic-kernel-bot/
