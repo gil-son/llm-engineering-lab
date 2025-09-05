@@ -62,12 +62,13 @@ llm-engineering-lab/
 │   └── 02-7-NLP-with-NLU-and-NLG.md              # NLP vs NLU vs NLG
 │
 ├── 03-LLM-Fundamentals/                           # Understanding architectures and training of LLMs
-│   ├── 03-1-LLM-Architectures.md                  # Overview of Transformer-based models like GPT and LLaMA
-│   ├── 03-2-LLM-Fine-tuning.md                    # Techniques and strategies for fine-tuning LLMs
-│   ├── 03-3-LLM-Evaluation.md                     # Metrics and best practices to evaluate LLM performance
-│   ├── 03-4-Pretraining-and-Objectives.md         # Fundamentals of pretraining tasks and objectives for LLMs
-│   ├── 03-5-Instruction-Tuning.md                 # Fine-tuning models to follow human instructions effectively
-│   └── 03-6-RLHF.md                               # Reinforcement learning with human feedback to align models
+│   ├── 03-1-LLM-Basic.md                          # Necessaries and basic concepts
+│   ├── 03-2-LLM-Architectures.md                  # Overview of Transformer-based models like GPT and LLaMA
+│   ├── 03-3-LLM-Fine-tuning.md                    # Techniques and strategies for fine-tuning LLMs
+│   ├── 03-4-LLM-Evaluation.md                     # Metrics and best practices to evaluate LLM performance
+│   ├── 03-5-Pretraining-and-Objectives.md         # Fundamentals of pretraining tasks and objectives for LLMs
+│   ├── 03-6-Instruction-Tuning.md                 # Fine-tuning models to follow human instructions effectively
+│   └── 03-7-RLHF.md                               # Reinforcement learning with human feedback to align models
 │
 ├── 04-RAG-Pipeline/                               # Concepts and tools for retrieval-augmented generation
 │   ├── 04-1-RAG-Concepts.md                       # Introduction to RAG and its practical benefits
