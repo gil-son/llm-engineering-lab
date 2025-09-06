@@ -34,52 +34,28 @@ Text splitting can be performed in multiple ways:
 
 1. **Chunking**  
    - Breaks text into fixed-size pieces (e.g., 500 tokens each).
+       <div align="center"><img src="https://baoyu.io/images/rag/5-levels-of-text-splitting/ChunkVizCharacter34_4_w_overlap.png" width="70%"></div><hr/>
         - Breaks text into fixed-size pieces. Often used with overlap.
         - Example:
-            - Text length = 1200 tokens, chunk size = 500, overlap = 50
+            - Text length ≈ 1100 tokens, chunk size ≈ 470, overlap = 45
             
-            ```mermaid
-
-                block-beta
-                    columns 1
-                    A["Chunk 1: Tokens 1–500"]
-                    B["Chunk 2: Tokens 451–950"]
-                    C["Chunk 3: Tokens 901–1200"]
-            ```
+        <div align="center"><img src="https://baoyu.io/images/rag/5-levels-of-text-splitting/ChunkVizCharacterRecursive.png" width="70%"></div><hr/>
+   
+     
    - May include **overlap** (e.g., 500 tokens with 30/40/50-token overlap) to preserve context.
 
 
-2. **Sliding Window**  
+3. **Sliding Window**  
    - A moving window of tokens is applied, sliding by a fixed step.  
    - Example: Window size = 400, step size = 100 → creates overlapping chunks.
 
-    ```mermaid
-
-        block-beta
-            columns 1
-            A["Window 1: Tokens 1–400"]
-            B["Window 2: Tokens 101–500"]
-            C["Window 3: Tokens 201–600"]
-            
-    ```
-
-3. **Recursive Character Splitting**  
+4. **Recursive Character Splitting**  
    - Splits text hierarchically: paragraphs → sentences → words → characters.  
    - Useful for documents with irregular structure (e.g., legal texts, logs).  
    - Example Process:
         - Split by paragraph (\n\n)
         - If too long, split by sentence (.)
         - If still long, split by words or characters
-
-    ```mermaid
-
-        graph TD
-        A[Document] --> B[Paragraphs]
-        B --> C[Sentences]
-        C --> D[Words]
-        D --> E[Characters]
-                    
-    ```
 ---
 
 ### Step-by-step Process  
