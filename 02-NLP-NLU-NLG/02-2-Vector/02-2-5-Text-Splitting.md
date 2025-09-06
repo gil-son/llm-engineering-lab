@@ -135,3 +135,11 @@ graph TD
 </div>  
 
 </details>  
+
+
+<hr/>
+
+<h3>Resources</h3>
+
+- <a href="https://baoyu.io/translations/rag/5-levels-of-text-splitting">baoyu.io</a>
+- <a href="https://medium.com/@anestesya/desvendando-o-vector-database-como-turbinar-sua-ia-com-dados-da-empresa-e-evitar-alucina%C3%A7%C3%B5es-a2c4f5c785f0">medium - anestesya</a>
