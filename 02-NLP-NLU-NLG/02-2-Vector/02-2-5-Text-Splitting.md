@@ -2,12 +2,18 @@
 
 # What is Text Splitting?
 
+To use the Vector Database effectively, it is important to understand the "tokens" and "chunks"
+
+We've discussed "tokens," which are the individual parts of a sentence. Now, we'll look at "chunks," which are pieces of a document containing tokens. How you divide your data into tokens and chunks affects how AI processes it.
+
+<div align="center"><img src="https://baoyu.io/images/rag/5-levels-of-text-splitting/ChunkVizCharacter34_4_w_overlap.png" width="60%"></div>
+
+So, **Text Splitting** is the process of dividing long documents into smaller, more manageable chunks before embedding or processing with Large Language Models (LLMs). 
+
 <div align="center">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxEyD52aYxB5vOd6y1ANVmeL6NUtF4UReX72UbgJIzEj7X9F4_z-fVXphlbwtKHxTHQHo&usqp=CAU" width="20%">
-</div>  
+</div>
 <br/>
-
-**Text Splitting** is the process of dividing long documents into smaller, more manageable chunks before embedding or processing with Large Language Models (LLMs).  
 
 Because LLMs have a **context window limit** (a maximum number of tokens they can handle), text splitting ensures that large documents can be broken down into overlapping or structured parts while preserving semantic meaning.  
 
@@ -33,16 +39,12 @@ Text splitting solves key challenges:
 Text splitting can be performed in multiple ways:  
 
 1. **Chunking**  
-   - Breaks text into fixed-size pieces (e.g., 500 tokens each).
-       <div align="center"><img src="https://baoyu.io/images/rag/5-levels-of-text-splitting/ChunkVizCharacter34_4_w_overlap.png" width="70%"></div><hr/>
+   - Breaks text into fixed-size pieces (e.g. 500 tokens).
         - Breaks text into fixed-size pieces. Often used with overlap.
         - Example:
             - Text length ≈ 1100 tokens, chunk size ≈ 470, overlap = 45
             
-        <div align="center"><img src="https://baoyu.io/images/rag/5-levels-of-text-splitting/ChunkVizCharacterRecursive.png" width="70%"></div><hr/>
-   
-     
-   - May include **overlap** (e.g., 500 tokens with 30/40/50-token overlap) to preserve context.
+   - May include **overlap** (e.g. 500 tokens with 50-token overlap) to preserve context.
 
 
 3. **Sliding Window**  
@@ -98,8 +100,8 @@ graph TD
 - **Fixed-size Chunking**: Simple, fast, but may cut sentences in half.  
 - **Overlapping Chunking**: Preserves semantic flow between chunks.
     - One way to prevent AI from hallucinating is to use "chunk overlap." This means reserving a certain number of tokens from the current chunk with those from the previous chunk, ensuring that the context of the chunks is related to each other.
-    - <div align="center"><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*rldz9gxQPzzbqCv5" width="50%"></div><hr/>
-    - <div align="center"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*jkuQgGbrxGookb88.png" width="50%"></div>
+    - <div align="center"><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*rldz9gxQPzzbqCv5" width="60%"></div><hr/>
+    - <div align="center"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*jkuQgGbrxGookb88.png" width="60%"></div>
     <div align="center">Tip: on average, a good overlap rate for document indexing is around 20%, for every 1000 tokens, 200 tokens will be overlapping</div>
     
 - **Recursive Splitting**: Smart fallback that keeps chunks semantically valid.  
