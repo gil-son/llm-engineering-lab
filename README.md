@@ -1,6 +1,8 @@
 # Introduction to the LLM Engineering Lab
 
-![image](https://spcdn.shortpixel.ai/spio/ret_img,q_orig,to_auto,s_webp:avif/https://goldpenguin.org/wp-content/uploads/2024/05/image9-6.png)
+<p align="center">
+  <img src="https://img.freepik.com/free-photo/anime-character-traveling_23-2151140056.jpg?semt=ais_hybrid&w=740&q=80" width="100%">
+</p>
 
 Welcome to the **LLM Engineering Lab** – a structured repository designed to help you learn, explore, and experiment with Large Language Models (LLMs). This lab aims to guide you through the foundational concepts, practical applications, and orchestration of robust solutions using techniques like RAG, agents, and MLOps.
 
