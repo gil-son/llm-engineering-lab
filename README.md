@@ -1,7 +1,7 @@
 # Introduction to the LLM Engineering Lab
 
 <p align="center">
-  <img src="https://img.freepik.com/free-photo/anime-character-traveling_23-2151140056.jpg?semt=ais_hybrid&w=740&q=80" width="100%">
+  <img src="https://github.com/gil-son/experimental/blob/main/matrizero/v002/src/assets/images/devs.png" width="40%">
 </p>
 
 Welcome to the **LLM Engineering Lab** – a structured repository designed to help you learn, explore, and experiment with Large Language Models (LLMs). This lab aims to guide you through the foundational concepts, practical applications, and orchestration of robust solutions using techniques like RAG, agents, and MLOps.
