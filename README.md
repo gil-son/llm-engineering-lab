@@ -42,103 +42,102 @@ The repository is organized into numbered folders to reflect a progressive learn
 
 llm-engineering-lab/
 │
-├── README.md                                      # Introduction to the lab and learning objectives and repository overview and usage instructions
+├── README.md                                      # Introduction, objectives, repo overview, usage instructions
 │
-├── 01-Concepts-and-Setup/                         # Core LLM concepts and environment setup
-│   ├── 01-1-What-is-an-LLM.md                     # Simple explanation of Large Language Models and their importance
-│   ├── 01-2-Key-Terms.md                          # Glossary of essential LLM terms like token, prompt, inference
-│   └── 01-3-Environment-Setup.md                  # Guide to setting up Python environment, APIs, and dependencies
+├── 01-LLM-Fundamentals/                           # Core LLM concepts, setup, and architectures
+│   ├── 01-1-What-is-an-LLM.md                     # Intro: simple explanation of LLMs and their importance
+│   ├── 01-2-Key-Terms.md                          # Glossary of essential terms (token, prompt, inference, etc.)
+│   ├── 01-3-Environment-Setup.md                  # Setting up Python env, APIs, dependencies
+│   ├── 01-4-LLM-Architectures.md                  # Transformer-based models like GPT, LLaMA
+│   ├── 01-5-Pretraining-and-Objectives.md         # Pretraining tasks and objectives
+│   ├── 01-6-Fine-tuning.md                        # Strategies for fine-tuning LLMs
+│   ├── 01-7-Instruction-Tuning.md                 # Fine-tuning for following instructions
+│   ├── 01-8-RLHF.md                               # Reinforcement learning with human feedback
+│   └── 01-9-LLM-Evaluation.md                     # Metrics and best practices for evaluation
 │
-├── 02-NLP-NLU-NLG/                                
+├── 02-NLP-NLU-NLG/                                # NLP foundations and connections with LLMs
 │   ├── 02-1-Tokenization.md                       # Tokenization methods: BPE, WordPiece, SentencePiece
 │   ├── 02-2-Vector/
-│   │   ├── 02-2-1-Vectors.md                     # What are vector spaces? Cosine similarity, distance metrics, etc.
+│   │   ├── 02-2-1-Vectors.md                     # Vector spaces, cosine similarity, distance metrics
 │   │   ├── 02-2-2-Embeddings.md                  # One-hot, word2vec, transformer-based embeddings
-│   │   ├── 02-2-3-Positional-Encoding.md         # How transformers encode word order in embeddings
-│   │   ├── 02-2-4-Ingesting-Documents.md         # Preparing raw documents for embedding pipelines
-│   │   ├── 02-2-5-Text-Splitting.md              # Chunking, sliding windows, and recursive character splitting
-│   │   ├── 02-2-6-Embedding-Models.md            # Overview of popular models: OpenAI, Instructor, MiniLM, etc.
-│   │   └── 02-2-7-Similarity-Search.md           # How nearest neighbor search is used with vector databases
-│   ├── 02-3-NLP-Basics.md                        # Basic text preprocessing and normalization techniques
-│   ├── 02-4-NLU-Intro.md                         # Introduction to intent detection and entity extraction
-│   ├── 02-6-NLG-Overview.md                      # Overview of rule-based and neural language generation
-│   ├── 02-6-Applications-in-LLMs.md              # Introducing LLMs applications
+│   │   ├── 02-2-3-Positional-Encoding.md         # Encoding word order in embeddings
+│   │   ├── 02-2-4-Ingesting-Documents.md         # Preparing raw docs for embedding pipelines
+│   │   ├── 02-2-5-Text-Splitting.md              # Chunking, sliding windows, recursive splitting
+│   │   ├── 02-2-6-Embedding-Models.md            # Popular models: OpenAI, Instructor, MiniLM
+│   │   └── 02-2-7-Similarity-Search.md           # Nearest neighbor search in vector DBs
+│   ├── 02-3-NLP-Basics.md                        # Text preprocessing and normalization
+│   ├── 02-4-NLU-Intro.md                         # Intent detection, entity extraction
+│   ├── 02-5-NLG-Overview.md                      # Rule-based vs neural language generation
+│   ├── 02-6-Applications-in-LLMs.md              # Practical applications of LLMs
 │   └── 02-7-NLP-with-NLU-and-NLG.md              # NLP vs NLU vs NLG
 │
-├── 03-LLM-Fundamentals/                           # Understanding architectures and training of LLMs
-│   ├── 03-1-LLM-Basic.md                          # Necessaries and basic concepts
-│   ├── 03-2-LLM-Architectures.md                  # Overview of Transformer-based models like GPT and LLaMA
-│   ├── 03-3-LLM-Fine-tuning.md                    # Techniques and strategies for fine-tuning LLMs
-│   ├── 03-4-LLM-Evaluation.md                     # Metrics and best practices to evaluate LLM performance
-│   ├── 03-5-Pretraining-and-Objectives.md         # Fundamentals of pretraining tasks and objectives for LLMs
-│   ├── 03-6-Instruction-Tuning.md                 # Fine-tuning models to follow human instructions effectively
-│   └── 03-7-RLHF.md                               # Reinforcement learning with human feedback to align models
+├── 03-RAG-Pipeline/                               # Retrieval-augmented generation
+│   ├── 03-1-RAG-Concepts.md                       # What is RAG and why it matters
+│   ├── 03-2-Vector-Databases/
+│   │   ├── Weaviate-Integration.md                # Setup, indexing, querying with Weaviate
+│   │   └── FAISS-Usage.md                         # Local similarity search with FAISS
+│   ├── 03-3-Chunking-and-Embedding.md             # Best practices for chunking and embeddings
+│   └── 03-4-Retrieval-Strategies.md               # Dense, sparse, hybrid retrieval methods
 │
-├── 04-RAG-Pipeline/                               # Concepts and tools for retrieval-augmented generation
-│   ├── 04-1-RAG-Concepts.md                       # Introduction to RAG and its practical benefits
-│   ├── 04-2-Vector-Databases/                      # Integration with vector similarity databases
-│   │   ├── Weaviate-Integration.md                # Setup, indexing, and querying with Weaviate
-│   │   └── FAISS-Usage.md                         # Local similarity search using FAISS
-│   ├── 04-3-Chunking-and-Embedding.md             # Best practices for text chunking and embeddings
-│   └── 04-4-Retrieval-Strategies.md               # Dense, sparse, and hybrid retrieval methods explained
+├── 04-LLM-Orchestration/                          # Orchestrating LLM workflows
+│   ├── 04-1-Semantic-Kernel-Overview.md           # Microsoft’s Semantic Kernel
+│   ├── 04-2-LangChain-Concepts.md                 # Chains, agents, retrievers, memory
+│   ├── 04-3-LangGraph-Intro.md                    # Stateful workflows with LangGraph
+│   ├── 04-4-LangSmith-Usage.md                    # Debugging, tracing, evaluation
+│   ├── 04-5-LangFlow-UI-Builder.md                # Visual builder for LangChain workflows
+│   └── 04-6-LangFuse-Observability.md             # Monitoring & analytics in production
 │
-├── 05-LLM-Orchestration/                          # Frameworks and tools for orchestrating LLM workflows
-│   ├── 05-1-Semantic-Kernel-Overview.md           # Overview of Microsoft’s Semantic Kernel framework
-│   ├── 05-2-LangChain-Concepts.md                  # Core LangChain components: chains, agents, retrievers, memory
-│   ├── 05-3-LangGraph-Intro.md                     # Introduction to LangGraph for stateful LLM workflows
-│   ├── 05-4-LangSmith-Usage.md                     # Using LangSmith for debugging, tracing, and evaluation
-│   ├── 05-5-LangFlow-UI-Builder.md                 # Visual UI builder for LangChain workflows
-│   └── 05-6-LangFuse-Observability.md              # Monitoring and analytics with LangFuse in production
+├── 05-Agentic-AI-Systems/                         # Autonomous AI agents
+│   ├── 05-1-Agentic-AI-Principles.md              # Fundamentals of AI agents
+│   ├── 05-2-Tool-Integration-Examples.md          # Tool access: APIs, search, functions
 │
-├── 06-Agentic-AI-Systems/                          # Autonomous agents and tool integrations
-│   ├── 06-1-Agentic-AI-Principles.md               # Fundamentals of autonomous AI agents
-│   ├── 06-2-Tool-Integration-Examples.md           # Examples of giving LLMs external tool access (APIs, search)
+├── 06-Evaluation-and-Benchmarks/                  # Testing and evaluating LLMs
+│   ├── 06-1-Prompt-Evaluation.md                  # Assessing prompt quality
+│   ├── 06-2-Metrics-and-Benchmarks.md             # Accuracy, BLEU, ROUGE, perplexity
+│   ├── 06-3-Hallucination-Detection.md            # Detecting hallucinations
+│   ├── 06-4-Latency-and-Cost.md                   # Runtime, token usage, cost tracking
+│   └── 06-5-Tracing-with-LangSmith.md             # Traceability with LangSmith
 │
-├── 07-Evaluation-and-Benchmarks/                   # Testing, evaluation metrics, and benchmarks for LLMs
-│   ├── 07-1-Prompt-Evaluation.md                    # Methods to assess prompt quality and reliability
-│   ├── 07-2-Metrics-and-Benchmarks.md               # Overview of accuracy, BLEU, ROUGE, perplexity metrics
-│   ├── 07-3-Hallucination-Detection.md              # Techniques to detect hallucinations in LLM outputs
-│   ├── 07-4-Latency-and-Cost.md                      # Measuring runtime, token consumption, and cost
-│   └── 07-5-Tracing-with-LangSmith.md                # How to use LangSmith for traceability in evaluations
+├── 07-MLOps-and-Tracking/                         # Productionizing LLM workflows
+│   ├── 07-1-MLflow-Basics.md                      # Logging and tracking experiments
+│   ├── 07-2-Tracking-RAG-and-Prompts.md           # MLflow for prompt + retrieval stats
+│   └── 07-3-Integration-with-LangChain.md         # MLflow integration with LangChain
 │
-├── 08-MLOps-and-Tracking/                           # Production workflows for managing ML lifecycle
-│   ├── 08-1-MLflow-Basics.md                         # Introduction to logging and tracking LLM experiments with MLflow
-│   ├── 08-2-Tracking-RAG-and-Prompts.md              # Custom MLflow runs for prompt templates and retrieval stats
-│   └── 08-3-Integration-with-LangChain.md            # Using MLflow integration with LangChain workflows
+├── 08-AI-IVR-Specifics/                           # LLMs in IVR systems
+│   ├── 08-1-IVR-System-Overview.md                # Interactive Voice Response systems
+│   ├── 08-2-Voice-to-Text-Text-to-Voice.md        # Speech-to-text and TTS integration
+│   ├── 08-3-Dialogue-Management-in-IVR.md         # Managing conversations with LLMs
+│   └── 08-4-Orchestration-Comparison.md           # LangChain vs Semantic Kernel in IVR
 │
-├── 09-AI-IVR-Specifics/                             # AI applications in IVR systems
-│   ├── 09-1-IVR-System-Overview.md                   # Overview of Interactive Voice Response systems
-│   ├── 09-2-Voice-to-Text-Text-to-Voice.md           # Techniques for speech-to-text and text-to-speech integration
-│   ├── 09-3-Dialogue-Management-in-IVR.md            # Managing conversational flows with LLMs in IVR
-│   └── 09-4-Orchestration-Comparison.md              # Comparing LangChain and Semantic Kernel for IVR orchestration
+├── 09-LLM-Data-Engineering/                       # Dataset lifecycle for training
+│   ├── 09-1-Dataset-Collection.md                 # Gathering high-quality training data
+│   ├── 09-2-Data-Cleaning-and-Filtering.md        # Cleaning and filtering for consistency
+│   └── 09-3-Dataset-Formatting.md                 # Formatting datasets for model training
 │
-├── 10-LLM-Data-Engineering/                       # Managing data lifecycle for LLM training
-│   ├── 10-1-Dataset-Collection.md                  # Methods for gathering high-quality training data
-│   ├── 10-2-Data-Cleaning-and-Filtering.md         # Cleaning and filtering raw data for consistency
-│   └── 10-3-Dataset-Formatting.md                  # Preparing and formatting datasets for model training
+├── 10-Prompt-Engineering/                         # Crafting effective prompts
+│   ├── 10-1-Zero-Shot-One-Shot-Few-Shot.md        # Different prompting strategies
+│   ├── 10-2-Chain-of-Thought.md                   # Step-by-step reasoning
+│   └── 10-3-Prompt-Tuning-vs-Prefix-Tuning.md     # Lightweight tuning methods
 │
-├── 11-Prompt-Engineering/                         # Designing prompts to optimize LLM responses
-│   ├── 11-1-Zero-Shot-One-Shot-Few-Shot.md        # Prompting with varying numbers of examples
-│   ├── 11-2-Chain-of-Thought.md                    # Techniques to encourage step-by-step reasoning in models
-│   └── 11-3-Prompt-Tuning-vs-Prefix-Tuning.md     # Lightweight methods to adapt models via prompts
-│
-├── projects/                                        # Hands-on projects to apply concepts
+├── projects/                                      # Hands-on projects
 │   ├── 01-basic-rag/
 │   ├── 02-weaviate-rag/
 │   ├── 03-langchain-agent/
 │   └── 04-semantic-kernel-bot/
 │
-├── notebooks/                                       # Jupyter notebooks for experiments and demos
-│   ├── 01-mini-gpt-char-transformer-lm/
-│   └── 02-genesis_transformer_lm/
+├── notebooks/                                     # Jupyter notebooks for experiments
+│   ├── 01-transformer-lm/
+│   │   ├── 01-mini-gpt-char.ipynb          # Minimal character-level GPT
+│   │   ├── 02-genesis-transformer.ipynb    # More advanced Transformer LM
+│   │   ├── README.md                       # Explains both steps
+│   │   └── requirements.txt
+│   └── 03-rag/
+│       └──  rag_from_scratch_1_to_4
 │
-│
-├── scripts/                                        # Utility scripts for loaders, embeddings, etc.
-│   ├── utils.py
-│   ├── loaders.py
-│   └── embeddings.py
-│
-└── requirements.txt                                # Python dependencies list
+└── scripts/                                        # Utility scripts for loaders, embeddings, etc.
+    ├── utils.py
+    ├── loaders.py
+    └── embeddings.py
 
 ```
 
