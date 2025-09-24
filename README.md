@@ -63,8 +63,7 @@ llm-engineering-lab/
 │   │   ├── 02-2-3-Positional-Encoding.md         # Encoding word order in embeddings
 │   │   ├── 02-2-4-Ingesting-Documents.md         # Preparing raw docs for embedding pipelines
 │   │   ├── 02-2-5-Text-Splitting.md              # Chunking, sliding windows, recursive splitting
-│   │   ├── 02-2-6-Embedding-Models.md            # Popular models: OpenAI, Instructor, MiniLM
-│   │   └── 02-2-7-Similarity-Search.md           # Nearest neighbor search in vector DBs
+│   │   └── 02-2-6-Similarity-Search.md           # Nearest neighbor search in vector DBs
 │   ├── 02-3-NLP-Basics.md                        # Text preprocessing and normalization
 │   ├── 02-4-NLU-Intro.md                         # Intent detection, entity extraction
 │   ├── 02-5-NLG-Overview.md                      # Rule-based vs neural language generation
