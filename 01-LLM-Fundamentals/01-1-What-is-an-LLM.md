@@ -1,5 +1,3 @@
-# 01-1-What-is-an-LLM
-
 # What is an LLM?
 
 <div align="center">
@@ -7,58 +5,68 @@
 </div>
 <br/>
 
-A **Large Language Model (LLM)** is an advanced machine learning model trained on vast amounts of text data to understand, generate, and interact using human language. These models are built using transformer architectures and are capable of performing a wide variety of Natural Language Processing (NLP) tasks such as answering questions, writing code, translating languages, summarizing text, and even reasoning.
+A **Large Language Model (LLM)** is an advanced machine learning model trained on vast amounts of text data to understand, generate, and interact using human language.  
+These models are based on the **Transformer architecture** and can perform a wide variety of Natural Language Processing (NLP) tasks, such as:
 
-LLMs are at the core of modern AI applications like ChatGPT, Claude, and Google Gemini, and are transforming how businesses, developers, and users interact with machines using natural language.
+- Answering questions  
+- Writing and debugging code  
+- Translating languages  
+- Summarizing text  
+- Reasoning and problem-solving  
 
+LLMs are at the core of modern AI applications like **ChatGPT, Claude, and Google Gemini**, and are transforming how businesses, developers, and users interact with machines.
 
-### Close-Souce Frontier
+---
 
-- GPT from OpenAI
-- Claude from Anthropic
-- Gemini from Google
-- Command R from Cohere
-- Perplexity
+## Frontier LLMs
 
-### Open-Souce Frontier
+### Closed-Source
+- GPT (OpenAI)  
+- Claude (Anthropic)  
+- Gemini (Google DeepMind)  
+- Command R (Cohere)  
+- Perplexity  
 
-- Llma from Meta
-- Mixtral from Mistral
-- Qwen from Alibaba Cloud
-- Gemma from Google
-- Phi from Microsoft
+### Open-Source
+- LLaMA (Meta)  
+- Mixtral (Mistral)  
+- Qwen (Alibaba Cloud)  
+- Gemma (Google)  
+- Phi (Microsoft)  
 
-### Three wayas to use models
+---
 
-1. Chat interfaces like ChatGPT
+## Ways to Use LLMs
 
-2. Cloud APIs
-    - LLM API
-    - Frameworks like LangChain
-    - Managed AI Cloud services:
-        - Amazon Bedrock
-        - Azure ML
+1. **Chat Interfaces**  
+   - e.g., ChatGPT, Claude, Gemini
 
-3. Direct inference
-    - With the HuggingFace Transformers library
-    - With Ollama to run locally
+2. **Cloud APIs**  
+   - Direct API access (OpenAI, Anthropic, etc.)  
+   - Frameworks like **LangChain** and **Semantic Kernel**  
+   - Managed AI services:  
+     - Amazon Bedrock  
+     - Azure ML  
 
-### Mind-blowing perfomance from Frontier LLMs
+3. **Direct Inference**  
+   - Using **Hugging Face Transformers**  
+   - Running locally with **Ollama**  
 
-- **Synthesizing information:** Answering a question in depth with a structured, well researched answer and often including a summary
+---
 
-- **Fleshing out a skeleton:** From a couple of notes, building out well crafted email, or a blog post, and iterating on it wth you until perfect
+## Capabilities of Frontier Models
 
-- **Coding:** The ability to write and debug code is remarkable; far overtaken Stack Overflow as the resource for begineers
+- **Synthesizing information**: Providing structured, researched, and summarized answers  
+- **Expanding ideas**: Turning rough notes into polished content (emails, blog posts, reports)  
+- **Coding**: Writing, debugging, and explaining code; has surpassed Stack Overflow for many developers  
 
+---
 
-### Limitations of Frontiers Models
+## Limitations
 
-- **Specialized domain:** Most are not PhD level, but crosing in
-
-- **Recent events:** Limited knowledge beyond training cut-off date
-
-- **Can confidently make mistakes:** Some curious blindspots
+- **Specialized knowledge**: Not yet at expert (PhD-level) performance in narrow fields  
+- **Knowledge cut-off**: Limited awareness of recent events post-training  
+- **Hallucinations**: Can confidently generate incorrect or misleading information  
 
 ---
 
