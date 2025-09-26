@@ -18,56 +18,65 @@ LLMs are at the core of modern AI applications like **ChatGPT, Claude, and Googl
 
 ---
 
-## Frontier LLMs
+<details><summary><h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/14782/14782290.png" width="5%"></a> Frontier LLMs</h3></summary>
 
-### Closed-Source
-- GPT (OpenAI)  
-- Claude (Anthropic)  
-- Gemini (Google DeepMind)  
-- Command R (Cohere)  
-- Perplexity  
+#### Closed-Source
+- **GPT (OpenAI)** – Industry leader in general-purpose reasoning, coding, and conversation. Known for ChatGPT.  
+- **Claude (Anthropic)** – Emphasizes safety and constitutional AI. Strong at long-context understanding.  
+- **Gemini (Google DeepMind)** – Integrates with Google’s ecosystem; strong at multimodal reasoning (text, images, code).  
+- **Command R (Cohere)** – Optimized for retrieval-augmented generation (RAG) and enterprise workflows.  
+- **Perplexity** – Hybrid model + search engine; optimized for real-time question answering with citations.  
 
-### Open-Source
-- LLaMA (Meta)  
-- Mixtral (Mistral)  
-- Qwen (Alibaba Cloud)  
-- Gemma (Google)  
-- Phi (Microsoft)  
+#### Open-Source
+- **LLaMA (Meta)** – A family of open models widely adapted for fine-tuning and research.  
+- **Mixtral (Mistral)** – Sparse Mixture-of-Experts (MoE) architecture, offering efficiency with strong performance.  
+- **Qwen (Alibaba Cloud)** – Open models with strong multilingual support, especially for Asian languages.  
+- **Gemma (Google)** – Lightweight models released for research and local development.  
+- **Phi (Microsoft)** – Small, efficient models optimized for reasoning with surprisingly strong results.  
 
 ---
 
-## Ways to Use LLMs
+### Ways to Use LLMs
 
 1. **Chat Interfaces**  
-   - e.g., ChatGPT, Claude, Gemini
+   - Direct interaction via web or desktop apps.  
+   - Examples: **ChatGPT**, **Claude.ai**, **Gemini**.  
 
 2. **Cloud APIs**  
-   - Direct API access (OpenAI, Anthropic, etc.)  
-   - Frameworks like **LangChain** and **Semantic Kernel**  
-   - Managed AI services:  
-     - Amazon Bedrock  
-     - Azure ML  
+   - REST/GraphQL APIs from OpenAI, Anthropic, Cohere, etc.  
+   - Integration frameworks: **LangChain**, **Semantic Kernel**.  
+   - Managed AI cloud services:  
+     - **Amazon Bedrock** – multi-model API access.  
+     - **Azure ML** – enterprise-grade ML + deployment.  
+     - **Vertex AI** – Google’s managed ML/LLM platform.  
 
 3. **Direct Inference**  
-   - Using **Hugging Face Transformers**  
-   - Running locally with **Ollama**  
+   - **Hugging Face Transformers** library for model loading + fine-tuning.  
+   - **Ollama** or **LM Studio** to run smaller models locally.  
+   - Often used when privacy, cost, or customization is critical.  
 
 ---
 
-## Capabilities of Frontier Models
+### Capabilities of Frontier Models
 
-- **Synthesizing information**: Providing structured, researched, and summarized answers  
-- **Expanding ideas**: Turning rough notes into polished content (emails, blog posts, reports)  
-- **Coding**: Writing, debugging, and explaining code; has surpassed Stack Overflow for many developers  
+- **Synthesizing information** – Produces structured, researched, and summarized answers.  
+- **Expanding ideas** – Turns notes into polished drafts (emails, reports, blog posts).  
+- **Coding** – Writes, debugs, and explains code; has become a go-to tool for developers.  
+- **Multimodality** (some models) – Understands text, images, and sometimes audio/video.  
+- **Long-context reasoning** – Some models (Claude, GPT-4 Turbo) can handle 100k+ tokens.  
 
 ---
 
-## Limitations
+### Limitations
 
-- **Specialized knowledge**: Not yet at expert (PhD-level) performance in narrow fields  
-- **Knowledge cut-off**: Limited awareness of recent events post-training  
-- **Hallucinations**: Can confidently generate incorrect or misleading information  
+- **Specialized knowledge** – Still below human experts in narrow fields (e.g., medicine, law).  
+- **Knowledge cut-off** – Training data limits awareness of very recent events.  
+- **Hallucinations** – Can confidently output false information.  
+- **Cost and efficiency** – Frontier closed-source APIs can be expensive at scale.  
+- **Data privacy** – Using APIs means sending data externally; may conflict with enterprise security needs.  
 
+</details>
+  
 ---
 
 <details><summary> <h3><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/4133/4133589.png" width="5%"></a>What problems do LLMs solve?</h3></summary>
