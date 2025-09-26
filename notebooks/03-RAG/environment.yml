@@ -1,0 +1,22 @@
+name: rags
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - jupyterlab
+    - langchain_community 
+    - tiktoken
+    - langchain-openai
+    - langchain-ollama
+    - langchain-huggingface
+    - sentence-transformers
+    - langchainhub
+    - chromadb 
+    - langchain
+    - youtube-transcript-api
+    - pytube
+    - cohere
+    - matplotlib
