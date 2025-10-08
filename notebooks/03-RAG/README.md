@@ -10,32 +10,42 @@ These notebooks accompany a [video playlist](https://youtube.com/playlist?list=P
 
 [Watch the video playlist](https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x)
 
+
+✅ But in **llm-engineering-lab** repository, I created more steps to analisys and study it
+
 ---
 
 ## Environment Setup
 
-Create the Conda environment:
+1. Create the Conda environment:
 
 ```bash
 conda env create -f environment.yml
 ```
 
-Activate the environment:
+2. Activate the environment:
 
 ```bash
 conda activate rags
 ```
 
-Deactivate when done:
-
-```bash
-conda deactivate
-```
-
-Launch Jupyter Lab from the `rag_from_scratch_*` folder:
+3. Launch Jupyter Lab from the `03-RAG/` folder:
 
 ```bash
 jupyter lab
+```
+
+4. Open on your hots on  port 8888
+
+```
+http://localhost:8888/
+
+```
+
+5. Deactivate when done:
+
+```bash
+conda deactivate
 ```
 
 ---
@@ -57,16 +67,3 @@ This notebook supports two LLM options for embeddings and generation:
    ```bash
    export OPENAI_API_KEY="sk-..."
    ```
-
----
-
-## Notebook Overview
-
-The notebooks walk through:
-
-1. **Indexing** – loading documents and splitting into chunks.  
-2. **Embeddings** – converting text to high-dimensional vectors.  
-3. **Retrieval** – searching for relevant documents using similarity.  
-4. **Generation** – combining retrieval with LLMs to answer questions.  
-
-You will also find sections on **cosine similarity**, **2D/3D PCA visualization**, and **illustrative examples** with both real and fake embeddings.

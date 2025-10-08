@@ -55,28 +55,17 @@ llm-engineering-lab/
 │   ├── 01-8-RLHF.md                               # Reinforcement learning with human feedback
 │   └── 01-9-LLM-Evaluation.md                     # Metrics and best practices for evaluation
 │
-├── 02-NLP-NLU-NLG/                                # NLP foundations and connections with LLMs
-│   ├── 02-1-Tokenization.md                       # Tokenization methods: BPE, WordPiece, SentencePiece
-│   ├── 02-2-Vector/
-│   │   ├── 02-2-1-Vectors.md                     # Vector spaces, cosine similarity, distance metrics
-│   │   ├── 02-2-2-Embeddings.md                  # One-hot, word2vec, transformer-based embeddings
-│   │   ├── 02-2-3-Positional-Encoding.md         # Encoding word order in embeddings
-│   │   ├── 02-2-4-Ingesting-Documents.md         # Preparing raw docs for embedding pipelines
-│   │   ├── 02-2-5-Text-Splitting.md              # Chunking, sliding windows, recursive splitting
-│   │   └── 02-2-6-Similarity-Search.md           # Nearest neighbor search in vector DBs
-│   ├── 02-3-NLP-Basics.md                        # Text preprocessing and normalization
-│   ├── 02-4-NLU-Intro.md                         # Intent detection, entity extraction
-│   ├── 02-5-NLG-Overview.md                      # Rule-based vs neural language generation
-│   ├── 02-6-Applications-in-LLMs.md              # Practical applications of LLMs
-│   └── 02-7-NLP-with-NLU-and-NLG.md              # NLP vs NLU vs NLG
+├── 02-NLP-NLU-NLG-Comprehension/
+│   ├── 02-1_NLP_Processing_Language/              # Text preparation and transformation into machine-readable form
+│   ├── 02-2_NLU_Understanding_Meaning/            # Extracting intent, entities, and semantic relationships
+│   ├── 02-3_NLG_Generating_Text/                  # Producing coherent natural language output
+│   └── 02-4_Evaluation_Refining_the_System/       # Measuring, optimizing, and improving model performance
 │
-├── 03-RAG-Pipeline/                               # Retrieval-augmented generation
-│   ├── 03-1-RAG-Concepts.md                       # What is RAG and why it matters
-│   ├── 03-2-Vector-Databases/
-│   │   ├── Weaviate-Integration.md                # Setup, indexing, querying with Weaviate
-│   │   └── FAISS-Usage.md                         # Local similarity search with FAISS
-│   ├── 03-3-Chunking-and-Embedding.md             # Best practices for chunking and embeddings
-│   └── 03-4-Retrieval-Strategies.md               # Dense, sparse, hybrid retrieval methods
+├── 03-RAG-Pipeline/
+│   ├── 03-1-Ingest-Documents/                     # Build the knowledge base: load, preprocessing, chunk, embed documents and vector
+│   ├── 03-2-Retrieval/                            # Retrieve relevant context from the vector store
+│   ├── 03-3-Generation/                           # Compose final answer combining LLM output with retrieved context
+│   └── 03-4-Feedback-Loop/                        # Continuous improvement via evaluation and retraining
 │
 ├── 04-LLM-Orchestration/                          # Orchestrating LLM workflows
 │   ├── 04-1-Semantic-Kernel-Overview.md           # Microsoft’s Semantic Kernel
@@ -130,6 +119,7 @@ llm-engineering-lab/
 │   │   ├── 02-genesis-transformer.ipynb    # More advanced Transformer LM
 │   │   ├── README.md                       # Explains both steps
 │   │   └── requirements.txt
+│   ├── 02-NLP-NLU-NLG/
 │   └── 03-rag/
 │       └──  rag_from_scratch_1_to_4
 │
