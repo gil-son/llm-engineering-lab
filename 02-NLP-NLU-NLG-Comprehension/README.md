@@ -59,20 +59,20 @@ This document provides a structured overview of the core components and steps in
 │   ├── 02-1-4-Text-Splitting.md
 │   └── 02-1-5-Ingestion-Vector-Store.md
 │
-├── 02-2-NLU-Understanding-Meaning/
+├── 02-2-NLU-UNDERSTADING-MEANING/
 │   ├── 02-2-1-Intent-Entity-Recognition.md
-│   ├── 02-2-1-Semantic-Syntactic-Analysis.md
-│   ├── 02-2-1-Contextual-Disambiguation.md
-│   ├── 02-2-1-Similarity-Search-Cosine.md
-│   └── 02-2-1-Knowledge-Retrieval.md
+│   ├── 02-2-2-Semantic-Syntactic-Analysis.md
+│   ├── 02-2-3-Contextual-Disambiguation.md
+│   ├── 02-2-4-Similarity-Search-Cosine.md
+│   └── 02-2-5-Knowledge-Retrieval.md
 │
-├── 02-3-NLG-Generating-Text/
+├── 02-3-NLG-GENERATING-TEXT/
 │   ├── 02-3-1-Content-Planning.md
-│   ├── 02-3-1-Sentence-Planning.md
-│   ├── 02-3-1-Surface-Realization.md
-│   └── 02-3-1-Post-processing.md
+│   ├── 02-3-2-Sentence-Planning.md
+│   ├── 02-3-3-Surface-Realization.md
+│   └── 02-3-4-Post-processing.md
 │
-└── 02-4-Evaluation-Refining-the-System/
+└── 02-4-EVALUATION-REFINING-THE-SYSTEM/
         ├── 02-4-1-Metrics.md
         └── 02-4-2-Feedback_RL.md
 
