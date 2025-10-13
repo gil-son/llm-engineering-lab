@@ -1,6 +1,6 @@
 # 02.2. NLU Understating Meaning
 
-<p align="center">
+<div align="center">
   <table>
     <tr>
       <td align="center"><img src="https://raw.githubusercontent.com/gil-son/experimental/refs/heads/main/matrizero/v001/src/assets/images/processing-language.png" width="80"/></td>
@@ -9,7 +9,7 @@
       <td align="center"><img src="https://raw.githubusercontent.com/gil-son/experimental/refs/heads/main/matrizero/v001/src/assets/images/evaluating.png" width="80"/></td>
     </tr>
   </table>
-</p>
+</div>
 
 ## 02.2.4. Similarity Search
 
@@ -25,7 +25,7 @@
 
 ---
 
-### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2299/2299623.png " width="80"/> Components
+### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2299/2299623.png" width="80"/> Components
 
 ---
 

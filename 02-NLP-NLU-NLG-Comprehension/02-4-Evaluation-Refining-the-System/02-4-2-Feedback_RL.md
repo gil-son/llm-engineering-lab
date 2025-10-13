@@ -1,6 +1,6 @@
 # 02.4. Evaluation-Refining-The-System
 
-<p align="center">
+<div align="center">
   <table>
     <tr>
       <td align="center"><img src="https://raw.githubusercontent.com/gil-son/experimental/refs/heads/main/matrizero/v001/src/assets/images/processing-language.png" width="80"/></td>
@@ -9,7 +9,7 @@
       <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2550/2550820.png" width="80"/></td>
     </tr>
   </table>
-</p>
+</div>
 
 ## 02.4.2. Feedback_RL.md
 
@@ -25,7 +25,7 @@
 
 ---
 
-### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2299/2299623.png " width="80"/> Components
+### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2299/2299623.png" width="80"/> Components
 
 ---
 
