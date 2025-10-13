@@ -11,7 +11,7 @@
   </table>
 </div>
 
-## 02.4.2. Feedback_RL.md
+## 02.4.2. Feedback_RL
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
 
