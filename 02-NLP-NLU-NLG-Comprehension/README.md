@@ -8,7 +8,7 @@ This document provides a structured overview of the core components and steps in
 
 | Step | Description |
 | :--- | :--- |
-| **2.1.1 Text Cleaning / Normalization** | The initial process of preparing raw text by removing noise (e.g., HTML tags, special characters), converting text to a standard case (e.g., lowercasing), and fixing inconsistencies. |
+| **2.1.1 Text Processing / Cleaning / Normalization** | The initial process of preparing raw text by removing noise (e.g., HTML tags, special characters), converting text to a standard case (e.g., lowercasing), and fixing inconsistencies. |
 | **2.1.2 Tokenization** | Breaking down the text into smaller units (tokens), which can be words, subwords, or characters, to be used as input for a model. |
 | **2.1.3 Embeddings / Vectors** | Representing text tokens (words/subwords) as dense, numerical vectors (e.g., Word2Vec, BERT) that capture their semantic and contextual meaning. |
 | **2.1.4 Text Splitting** | Dividing long documents into smaller, manageable chunks that respect context boundaries, typically for retrieval or processing by models with context length limits. |
@@ -53,7 +53,7 @@ This document provides a structured overview of the core components and steps in
 ```
 02-NLP-NLU-NLG-COMPREHENSION/
 ├── 02-1-NLP-Processing-Language/
-│   ├── 02-1-1-Text-Cleaning-Normalization.md
+│   ├── 02-1-1-Text-Processing-Cleaning-Normalization.md
 │   ├── 02-1-2-Tokenization.md
 │   ├── 02-1-3-Embeddings-Vectors.md
 │   ├── 02-1-4-Text-Splitting.md
@@ -63,7 +63,7 @@ This document provides a structured overview of the core components and steps in
 │   ├── 02-2-1-Intent-Entity-Recognition.md
 │   ├── 02-2-2-Semantic-Syntactic-Analysis.md
 │   ├── 02-2-3-Contextual-Disambiguation.md
-│   ├── 02-2-4-Similarity-Search-Cosine.md
+│   ├── 02-2-4-Similarity-Search.md
 │   └── 02-2-5-Knowledge-Retrieval.md
 │
 ├── 02-3-NLG-GENERATING-TEXT/
