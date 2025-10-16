@@ -4,7 +4,7 @@ This document outlines the sequential steps and core components of a production-
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/2342/2342156.png" width="80"/> 3.1. INGEST DOCUMENTS (Build the Knowledge Base)
+## <img src="https://cdn-icons-png.flaticon.com/512/2342/2342156.png" width="80"/> 3.1. Ingest Documents (Build the Knowledge Base)
 
 This initial phase focuses on acquiring, preparing, and indexing the external data that the LLM will use to ground its answers, effectively creating the specialized knowledge base.
 
@@ -18,7 +18,7 @@ This initial phase focuses on acquiring, preparing, and indexing the external da
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/7778/7778942.png" width="80"/> 3.2. RETRIEVAL (At Query Time)
+## <img src="https://cdn-icons-png.flaticon.com/512/7778/7778942.png" width="80"/> 3.2. Retrivial (At Query Time)
 
 This phase executes the "R" in RAG. It involves transforming the user's question into a searchable format and efficiently fetching the most relevant documents from the Vector Store.
 
@@ -30,7 +30,7 @@ This phase executes the "R" in RAG. It involves transforming the user's question
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/5695/5695072.png" width="80"/> 3.3. GENERATION (Answer Composition)
+## <img src="https://cdn-icons-png.flaticon.com/512/5695/5695072.png" width="80"/> 3.3. Generation (Answer Composition)
 
 This phase executes the "G" in RAG. It involves synthesizing the final answer by feeding the LLM with the original query and the newly retrieved, refined context.
 
@@ -42,7 +42,7 @@ This phase executes the "G" in RAG. It involves synthesizing the final answer by
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/4064/4064650.png" width="80"/> 3.4. FEEDBACK LOOP (Continuous Improvement)
+## <img src="https://cdn-icons-png.flaticon.com/512/4064/4064650.png" width="80"/> 3.4.Continuous Improvement
 
 This final, cyclical phase ensures the RAG system remains accurate, relevant, and robust over time by continuously monitoring performance and updating components.
 
@@ -63,32 +63,32 @@ The four-stage sequence (Ingestion, Retrieval, Generation, Feedback) is the cano
 │
 ├── 3-1 Ingest Documents (Build the Knowledge Base)
 │     │
-│     ├── 3-1-1-Document-Loading-Indexing.md
+│     ├── 03-1-1-Document-Loading-Indexing.md
 │     │       ├── Local Files (PDF, TXT, DOCX, CSV, Markdown, etc.)
 │     │       ├── APIs (external structured/unstructured data)
 │     │       ├── Web Scraping (HTML pages, blogs, news)
 │     │       ├── Databases (SQL, NoSQL)
 │     │       └── Cloud Storage (S3, Blob Storage, Google Drive, GCS)
 │     │
-│     ├── 3-1-2 Preprocessing.md
+│     ├── 03-1-2-Preprocessing.md
 │     │       ├── Text cleaning (remove noise, symbols)
 │     │       ├── OCR for scanned files
 │     │       ├── Language detection
 │     │       ├── Deduplication
 │     │       └── **Metadata Extraction (Author, Date, Source, Tags)**
 │     │
-│     ├── 3-1-3 Chunking.md (Split documents into manageable text units)
+│     ├── 03-1-3-Chunking.md (Split documents into manageable text units)
 │     │       ├── Fixed-size chunks (e.g., 500–1000 tokens)
 │     │       ├── Overlapping chunks (preserve context continuity)
 │     │       ├── Semantic or adaptive chunking (split by meaning)
 │     │       └── **Advanced Strategies (Parent-Child, Summary/Metadata)**
 │     │
-│     ├── 3-1-4 Embedding.md (Convert text chunks into vector representations)
+│     ├── 03-1-4-Embedding.md (Convert text chunks into vector representations)
 │     │       ├── Embedding models: OpenAI, HuggingFace, Cohere, etc.
 │     │       ├── Each chunk → numeric vector in high-dimensional space
 │     │       └── Store with metadata (source, title, timestamp)
 │     │
-│     └── 3-1-5 Vector-Store-Vector-Database.md
+│     └── 03-1-5-Vector-Store-Vector-Database.md
 │             ├── Purpose:
 │             │     Stores embeddings (numerical vectors) along with metadata.
 │             │     Enables fast similarity search to find semantically related content.
@@ -117,43 +117,44 @@ The four-stage sequence (Ingestion, Retrieval, Generation, Feedback) is the cano
 │                     unlike traditional relational databases.
 │                   • Often support hybrid (keyword + vector) search and metadata filtering.
 │
-├── 3-2-Retrivial/ (At Query Time)
+├── 03-2-Retrivial/ (At Query Time)
 │     │
-│     ├── 3-2-1-Query-Embedding.md
+│     ├── 03-2-1-Query-Embedding.md
 │     │       └── Convert user query into a vector (same embedding model)
 │     │
-│     ├── 3-2-2-Retriever.md
+│     ├── 03-2-2-Retriever.md
 │     │       ├── **Query Transformation (Decomposition, Rewriting)**
 │     │       ├── Semantic Search (compare query vector to stored vectors)
 │     │       ├── Cosine similarity used to rank relevance
 │     │       ├── Hybrid Search (combine keyword + vector)
 │     │       └── Metadata / Filtered Retrieval (by tag, date, source)
 │     │
-│     └── 3-2-3-Ranking-andRefinement.md
+│     └── 03-2-3-Ranking-and-Refinement.md
 │             ├── Re-ranking (e.g., cross-encoder models, BM25 hybrid)
 │             ├── Query rewriting or expansion
 │             └── Context refinement (remove redundant or irrelevant text)
 │
-├── 3-3-Generation.md (Answer Composition)
+├── 03-3-Generation/ (Answer Composition)
 │     │
-│     ├── 3-3-1 Context Injection
+│     ├── 03-3-1-Context-Injection.md
 │     │       └── Combine top retrieved documents into the LLM prompt
 │     │
-│     ├── 3-3-2 LLM Generation
+│     ├── 03-3-2-LLM-Generation.md
 │     │       └── The model generates an answer grounded in the retrieved context
 │     │       └── **Prompt Engineering (System Prompt, Few-shot Examples)**
 │     │
-│     └── 3-3-3-Post-Processing.md
+│     └── 03-3-3-Post-Processing.md
 │             ├── Summarization or reformatting
 │             ├── Source citation / attribution
 │             ├── Confidence scoring
 │             └── Optional: chain-of-thought or reasoning trace
 │
-└── 3-4-Feedback-Loop.md (Continuous Improvement)
-       ├── Evaluate retrieval relevance
-       ├── Update or expand the index (new documents or embeddings)
-       ├── Cache frequent queries
-       └── Apply user feedback for retraining or fine-tuning
+├── 3.4. Continuous Improvement/
+       └── 03-4-Feedback-Loop.md (Continuous Improvement)
+              ├── Evaluate retrieval relevance
+              ├── Update or expand the index (new documents or embeddings)
+              ├── Cache frequent queries
+              └── Apply user feedback for retraining or fine-tuning
 
 ```
 
