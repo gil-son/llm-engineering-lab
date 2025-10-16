@@ -65,7 +65,7 @@ llm-engineering-lab/
 │   ├── 03-1-Ingest-Documents/                     # Build the knowledge base: load, preprocessing, chunk, embed documents and vector
 │   ├── 03-2-Retrieval/                            # Retrieve relevant context from the vector store
 │   ├── 03-3-Generation/                           # Compose final answer combining LLM output with retrieved context
-│   └── 03-4-Feedback-Loop/                        # Continuous improvement via evaluation and retraining
+│   └── 03-4-Continuous-Improvement/               # Continuous improvement via evaluation and retraining
 │
 ├── 04-LLM-Orchestration/                          # Orchestrating LLM workflows
 │   ├── 04-1-Semantic-Kernel-Overview.md           # Microsoft’s Semantic Kernel
