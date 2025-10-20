@@ -127,7 +127,7 @@ LLMs can be integrated across platforms and workflows depending on the level of 
 
 ---
 
-### <img src="https://cdn-icons-png.flaticon.com/512/6675/6675847.png" width="5%"> Limitations
+### <img src="https://cdn-icons-png.flaticon.com/512/6675/6675847.png" width="80"> Limitations
 
 Despite their power, LLMs have important limitations:
 
@@ -139,14 +139,14 @@ Despite their power, LLMs have important limitations:
 
 ---
 
-### <img src="https://cdn-icons-png.flaticon.com/512/2147/2147809.png" width="5%"> Code/Notebook/Projects
+### <img src="https://cdn-icons-png.flaticon.com/512/2147/2147809.png" width="80"> Code/Notebook/Projects
 
 - [Connect with an LLM using LangChain](https://github.com/gil-son/llm-engineering-lab/tree/main/projects/04-langchain)
 - [Create an LLM from scratch](https://github.com/gil-son/llm-engineering-lab/tree/main/notebooks/01-transformer-lm)
 
 ---
 
-### <img src="https://cdn-icons-png.flaticon.com/512/2112/2112889.png" width="5%"> Videos
+### <img src="https://cdn-icons-png.flaticon.com/512/2112/2112889.png" width="80"> Videos
 
 A few recommended resources to visualize how LLMs work:
 
