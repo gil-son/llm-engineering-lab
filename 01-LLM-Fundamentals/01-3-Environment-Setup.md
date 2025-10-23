@@ -1,7 +1,7 @@
 # 1. Fundamentals
 
 <div align="center">
-  <img src="https://static.vecteezy.com/system/resources/previews/042/890/624/non_2x/llm-artificial-intelligence-blue-gradient-concept-icon-content-generation-chatbot-round-shape-line-illustration-abstract-idea-graphic-design-easy-to-use-infographic-presentation-vector.jpg" width="20%">
+  <img src="https://clarive.com/wp-content/uploads/Environment_provisioning.png" width="60%">
 </div>
 <br/>
 
