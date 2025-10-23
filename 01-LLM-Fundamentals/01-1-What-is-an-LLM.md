@@ -1,7 +1,29 @@
 # 1. Fundamentals
 
 <div align="center">
-  <img src="https://static.vecteezy.com/system/resources/previews/042/890/624/non_2x/llm-artificial-intelligence-blue-gradient-concept-icon-content-generation-chatbot-round-shape-line-illustration-abstract-idea-graphic-design-easy-to-use-infographic-presentation-vector.jpg" width="20%">
+  <table>
+    <tr>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/10087/10087719.png" width="80"/></td>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/></td>
+    </tr>
+  </table>
+</div>
+<br/>
+
+---
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/9722/9722973.png" width="80"/></td>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/11149/11149936.png" width="80"/></td>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2351/2351559.png" width="80"/></td>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2581/2581996.png" width="80"/></td>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/1990/1990934.png" width="80"/></td>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/6062/6062146.png" width="80"/></td>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/6062/6062142.png" width="80"/></td>
+    </tr>
+  </table>
 </div>
 <br/>
 
