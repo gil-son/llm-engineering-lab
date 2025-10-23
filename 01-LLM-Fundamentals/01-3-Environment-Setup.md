@@ -1,8 +1,16 @@
 # 1. Fundamentals
 
 <div align="center">
-  <img src="https://clarive.com/wp-content/uploads/Environment_provisioning.png" width="60%">
+  <table>
+    <tr>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/16682/16682509.png" width="80"/></td>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/12503/12503959.png" width="80"/></td>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/5815/5815880.png" width="80"/></td>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/9733/9733249.png" width="80"/></td>
+    </tr>
+  </table>
 </div>
+
 <br/>
 
 ## 1.3. Environments Setup
