@@ -4,7 +4,7 @@
 <img src="https://cdn-icons-png.flaticon.com/512/2013/2013631.png" width="80">
 </div>
   
-## 1.3 Key-Terms
+## 1.3. Key-Terms
 
 A glossary of essential terms that will help you navigate LLM fundamentals and documentation.
 
