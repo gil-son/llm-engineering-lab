@@ -1,7 +1,7 @@
 # Introduction to the LLM Engineering Lab
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1224155518604542182/1428928629844213893/devs.png?ex=68fb893d&is=68fa37bd&hm=37749653dc5403bf45edcb752c354806034cdb5d641fc8641b040b0b65e26ad5&" width="40%">
+  <img src="https://media.discordapp.net/attachments/622033233504370701/1433103766973841408/linkedin-post-llm-lab.png?ex=69037963&is=690227e3&hm=1ddaae21c488c721073d6774eb01784fdc68d6f8609ca8e505a8464d7b45f193&=&format=webp&quality=lossless&width=1001&height=523">
 </p>
 
 Welcome to the **LLM Engineering Lab** – a structured repository designed to help you learn, explore, and experiment with Large Language Models (LLMs). This lab aims to guide you through the foundational concepts, practical applications, and orchestration of robust solutions using techniques like RAG, agents, and MLOps.
@@ -19,6 +19,10 @@ By the end of this lab, you will be able to:
 - Build autonomous systems with tool-using LLM agents.
 - Monitor, trace, and evaluate model performance with MLflow, LangSmith, and LangFuse.
 - Apply all concepts in hands-on projects and domain-specific scenarios like IVR.
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/1224155518604542182/1428928629844213893/devs.png?ex=68fb893d&is=68fa37bd&hm=37749653dc5403bf45edcb752c354806034cdb5d641fc8641b040b0b65e26ad5&" width="40%">
+</p>
 
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/18310/18310876.png" width="80"/>  Repository Structure
