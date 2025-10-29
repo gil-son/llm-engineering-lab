@@ -1,7 +1,7 @@
 # Introduction to the LLM Engineering Lab
 
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/622033233504370701/1433103766973841408/linkedin-post-llm-lab.png?ex=69037963&is=690227e3&hm=1ddaae21c488c721073d6774eb01784fdc68d6f8609ca8e505a8464d7b45f193&=&format=webp&quality=lossless&width=1001&height=523">
+  <img src="https://cdn.discordapp.com/attachments/622033233504370701/1433106370839974089/linkedin-post-llm-lab.png?ex=69037bd0&is=69022a50&hm=9473f69e151150fb1ad886489bb0aed0d56181b6beb4873d7f897abf99210bb5&">
 </p>
 
 Welcome to the **LLM Engineering Lab** – a structured repository designed to help you learn, explore, and experiment with Large Language Models (LLMs). This lab aims to guide you through the foundational concepts, practical applications, and orchestration of robust solutions using techniques like RAG, agents, and MLOps.
