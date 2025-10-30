@@ -1,27 +1,27 @@
 # Introduction to the LLM Engineering Lab
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/622033233504370701/1433106370839974089/linkedin-post-llm-lab.png?ex=69037bd0&is=69022a50&hm=9473f69e151150fb1ad886489bb0aed0d56181b6beb4873d7f897abf99210bb5&">
+  <img src="https://cdn.discordapp.com/attachments/1224155518604542182/1428928629844213893/devs.png?ex=68fb893d&is=68fa37bd&hm=37749653dc5403bf45edcb752c354806034cdb5d641fc8641b040b0b65e26ad5&" width="40%">
 </p>
 
 Welcome to the **LLM Engineering Lab** – a structured repository designed to help you learn, explore, and experiment with Large Language Models (LLMs). This lab aims to guide you through the foundational concepts, practical applications, and orchestration of robust solutions using techniques like RAG, agents, and MLOps.
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/6062/6062161.png" width="80"/> Learning Objectives
 
-By the end of this lab, you will be able to:
+## By the End of This Lab, You Will Be Able To:
 
-- Understand the core concepts and key terminology related to LLMs.
-- Set up a proper development environment for working with LLM APIs.
-- Explain the principles of NLP, NLU, and NLG and how they relate to LLMs.
-- Evaluate different model architectures and fine-tuning techniques.
-- Implement Retrieval-Augmented Generation (RAG) pipelines using vector databases like FAISS and Weaviate.
-- Orchestrate complex workflows using LangChain, LangGraph, Semantic Kernel, and others.
-- Build autonomous systems with tool-using LLM agents.
-- Monitor, trace, and evaluate model performance with MLflow, LangSmith, and LangFuse.
-- Apply all concepts in hands-on projects and domain-specific scenarios like IVR.
+- **Understand** the core concepts and key terminology related to LLMs, and **build one from scratch**.  
+- **Evaluate** different model architectures and fine-tuning techniques.  
+- **Comprehend** the principles of **NLP**, **NLU**, and **NLG**, and how they relate to LLMs.  
+- **Implement** Retrieval-Augmented Generation (**RAG**) pipelines using vector databases such as **FAISS** and **Weaviate**.  
+- **Understand** how **MCP servers** work and how they integrate into LLM systems.  
+- **Orchestrate** complex workflows using **LangChain**, **LangGraph**, **Semantic Kernel**, and other frameworks.  
+- **Build** autonomous systems with **tool-using LLM agents**.  
+- **Monitor**, **trace**, and **evaluate** model performance using **MLflow**, **LangSmith**, and **LangFuse**.  
+- **Apply** all these concepts in hands-on projects and domain-specific scenarios such as **IVR systems**.  
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1224155518604542182/1428928629844213893/devs.png?ex=68fb893d&is=68fa37bd&hm=37749653dc5403bf45edcb752c354806034cdb5d641fc8641b040b0b65e26ad5&" width="40%">
+  <img src="https://cdn.discordapp.com/attachments/622033233504370701/1433106370839974089/linkedin-post-llm-lab.png?ex=69037bd0&is=69022a50&hm=9473f69e151150fb1ad886489bb0aed0d56181b6beb4873d7f897abf99210bb5&">
 </p>
 
 
