@@ -44,6 +44,9 @@ These models are based on the **Transformer architecture** and can perform a wid
 
 LLMs are at the core of modern AI applications like **ChatGPT, Claude, and Google Gemini**, and are transforming how businesses, developers, and users interact with machines.
 
+**Core idea:**  
+> Instead of processing words sequentially (like RNNs), transformers look at *all words at once* to understand contextual relationships.
+
 ---
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/5557/5557844.png" width="80"/> Why use it?
