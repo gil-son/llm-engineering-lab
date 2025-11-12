@@ -11,7 +11,7 @@
   </table>
 </div>
 
-## 2.1.2. Tokenization 🧩
+## 2.1.2. Tokenization
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
 
@@ -90,4 +90,17 @@ graph TD
 
 ### <img src="https://cdn-icons-png.flaticon.com/512/2112/2112889.png" width="80"> Videos
 
-[In the soon]
+A few recommended resources to visualize how LLMs work:
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=hL4ZnAWSyuU" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/hL4ZnAWSyuU/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA2dNDV7iR-8ZybtyqHKf04ETQmGQ"/>
+  </a>
+</div>
+<hr/>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=nKSk_TiR8YA&t" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/nKSk_TiR8YA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCpFpZaVNiXCCPuZDnT597CkpshHQ"/>
+  </a>
+</div>
+
