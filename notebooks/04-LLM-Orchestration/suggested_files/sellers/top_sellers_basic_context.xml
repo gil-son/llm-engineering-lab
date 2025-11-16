@@ -1,0 +1,62 @@
+<top_sellers>
+  <seller>
+    <rank>1</rank>
+    <name>Alice Johnson</name>
+    <total_sales>152000.50</total_sales>
+    <orders>430</orders>
+  </seller>
+  <seller>
+    <rank>2</rank>
+    <name>Daniel Kim</name>
+    <total_sales>147800.00</total_sales>
+    <orders>410</orders>
+  </seller>
+  <seller>
+    <rank>3</rank>
+    <name>Maria Rodriguez</name>
+    <total_sales>140250.75</total_sales>
+    <orders>389</orders>
+  </seller>
+  <seller>
+    <rank>4</rank>
+    <name>James Miller</name>
+    <total_sales>136900.00</total_sales>
+    <orders>376</orders>
+  </seller>
+  <seller>
+    <rank>5</rank>
+    <name>Sophia Chen</name>
+    <total_sales>131400.90</total_sales>
+    <orders>355</orders>
+  </seller>
+  <seller>
+    <rank>6</rank>
+    <name>Lucas Pereira</name>
+    <total_sales>128050.00</total_sales>
+    <orders>343</orders>
+  </seller>
+  <seller>
+    <rank>7</rank>
+    <name>Emma Thompson</name>
+    <total_sales>124780.60</total_sales>
+    <orders>338</orders>
+  </seller>
+  <seller>
+    <rank>8</rank>
+    <name>Olivia Silva</name>
+    <total_sales>120500.15</total_sales>
+    <orders>329</orders>
+  </seller>
+  <seller>
+    <rank>9</rank>
+    <name>Ethan Davis</name>
+    <total_sales>118300.00</total_sales>
+    <orders>315</orders>
+  </seller>
+  <seller>
+    <rank>10</rank>
+    <name>Noah Williams</name>
+    <total_sales>115750.40</total_sales>
+    <orders>307</orders>
+  </seller>
+</top_sellers>

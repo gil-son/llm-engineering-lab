@@ -1,0 +1,30 @@
+[
+  {
+    "category": "pizza",
+    "name": "Margherita",
+    "ingredients": ["tomato", "mozzarella", "basil"],
+    "price": 12.0
+  },
+  {
+    "category": "pizza",
+    "name": "Pepperoni",
+    "ingredients": ["tomato", "mozzarella", "pepperoni"],
+    "price": 14.0
+  },
+  {
+    "category": "pizza",
+    "name": "Four Cheese",
+    "ingredients": ["mozzarella", "gorgonzola", "parmesan", "provolone"],
+    "price": 15.0
+  },
+  {
+    "category": "drink",
+    "name": "Coke",
+    "price": 3.5
+  },
+  {
+    "category": "drink",
+    "name": "Water",
+    "price": 2.0
+  }
+]

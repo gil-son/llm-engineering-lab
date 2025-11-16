@@ -1,0 +1,14 @@
+{
+  "top_sellers": [
+    {"rank": 1, "name": "Alice Johnson", "total_sales": 152000.50, "orders": 430},
+    {"rank": 2, "name": "Daniel Kim", "total_sales": 147800.00, "orders": 410},
+    {"rank": 3, "name": "Maria Rodriguez", "total_sales": 140250.75, "orders": 389},
+    {"rank": 4, "name": "James Miller", "total_sales": 136900.00, "orders": 376},
+    {"rank": 5, "name": "Sophia Chen", "total_sales": 131400.90, "orders": 355},
+    {"rank": 6, "name": "Lucas Pereira", "total_sales": 128050.00, "orders": 343},
+    {"rank": 7, "name": "Emma Thompson", "total_sales": 124780.60, "orders": 338},
+    {"rank": 8, "name": "Olivia Silva", "total_sales": 120500.15, "orders": 329},
+    {"rank": 9, "name": "Ethan Davis", "total_sales": 118300.00, "orders": 315},
+    {"rank": 10, "name": "Noah Williams", "total_sales": 115750.40, "orders": 307}
+  ]
+}

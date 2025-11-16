@@ -1,0 +1,28 @@
+{
+  "menu": {
+    "pizzas": [
+      {
+        "name": "Margherita",
+        "ingredients": ["tomato", "mozzarella", "basil"],
+        "price_usd": 12.0,
+        "description": "Classic Italian pizza with fresh basil."
+      },
+      {
+        "name": "Pepperoni",
+        "ingredients": ["tomato", "mozzarella", "pepperoni"],
+        "price_usd": 14.0,
+        "description": "Popular pepperoni pizza with mozzarella."
+      },
+      {
+        "name": "Four Cheese",
+        "ingredients": ["mozzarella", "gorgonzola", "parmesan", "provolone"],
+        "price_usd": 15.0,
+        "description": "Blend of four gourmet cheeses."
+      }
+    ],
+    "drinks": [
+      {"name": "Coke", "price_usd": 3.5},
+      {"name": "Water", "price_usd": 2.0}
+    ]
+  }
+}
