@@ -117,17 +117,18 @@ llm-engineering-lab/
 │   ├── 03-langchain-agent/
 │   └── 04-semantic-kernel-bot/
 │
-├── notebooks/                                     # Jupyter notebooks for experiments
-│   ├── 01-transformer-lm/
+├── notebooks/                              # Jupyter notebooks for experiments
+│   ├── 01-LLM-Fundamentals/
 │   │   ├── 01-mini-gpt-char.ipynb          # Minimal character-level GPT
 │   │   ├── 02-genesis-transformer.ipynb    # More advanced Transformer LM
 │   │   ├── README.md                       # Explains both steps
 │   │   └── requirements.txt
-│   ├── 02-NLP-NLU-NLG/
-│   └── 03-rag/
-│       └──  rag_from_scratch_1_to_4
+│   ├── 02-NLP-NLU-NLG/                     # NLP (NLU and NLG) examples
+│   ├── 03-RAG-Pipeline/                    # RAG examples
+│   │   └──  rag_from_scratch_1_to_4
+│   └── 04-LLM-Orchestration                # LLM Orchestration examples
 │
-└── scripts/                                        # Utility scripts for loaders, embeddings, etc.
+└── scripts/                                # Utility scripts for loaders, embeddings, etc.
     ├── utils.py
     ├── loaders.py
     └── embeddings.py
