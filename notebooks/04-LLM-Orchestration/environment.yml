@@ -1,0 +1,20 @@
+name: llm-orchestration
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    -  jupyterlab
+      - langchain
+      - langchain-openai
+      - langchain-ollama
+      - langchain-community
+      - langchain-huggingface
+      - sentence-transformers
+      - chromadb
+      - tiktoken
+      - youtube-transcript-api
+      - pytube
+      - ipywidgets==8.1.2
