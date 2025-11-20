@@ -50,13 +50,21 @@ Core components of the text preprocessing pipeline include:
 4. **Embeddings** — map tokens to dense numerical vectors encoding meaning.
 5. **Vectorization** — transform text into numeric representations (TF-IDF, Word2Vec, embeddings)
 
+If we focus on Splitting:
+
+- **Text Cleaning**: remove unwanted elements such as punctuation, HTML tags, URLs, emojis, and other noise that does not contribute to meaning.
+- **Text Normalization**: standardize the text by lowercasing, normalizing whitespace, expanding contractions (e.g., don't → do not), and applying consistent formatting rules.
+- **Lemmatization / Stemming (optional)**: reduce words to their base or root forms to simplify vocabulary (e.g., running → run). This is optional and more common in classic NLP than in modern LLM pipelines.
+
 ---
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7527/7527144.png" width="80"/> How it works?
 
 ---
 
-The pipeline converts raw input into standardized, structured, vectorized data suitable for retrieval or modeling.:
+The pipeline converts raw input into standardized, structured, vectorized data suitable for retrieval or modeling.
+
+Let's go focus on **Normalization** step:
 
 #### Simple Diagram
 
@@ -70,11 +78,20 @@ graph TD
     E --> F[Vector Store Ingestion]
 ```
 
-Let's go focus on Normalization step:
-
-1. **Text Cleaning**: remove unwanted elements such as punctuation, HTML tags, URLs, emojis, and other noise that does not contribute to meaning.
-2. **Text Normalization**: standardize the text by lowercasing, normalizing whitespace, expanding contractions (e.g., don't → do not), and applying consistent formatting rules.
-3. **Lemmatization / Stemming (optional)**: reduce words to their base or root forms to simplify vocabulary (e.g., running → run). This is optional and more common in classic NLP than in modern LLM pipelines.
+After receiving Raw Text, the pipeline enters the Normalization step:
+1. **Text Cleaning**: remove or fix elements that introduce noise: extra spaces, HTML tags, broken characters, emojis (optional), duplicated lines, and unwanted symbols.
+2. **Text Normalization**: 
+  - Apply transformations that make the text consistent:
+      - lowercasing
+      - trimming whitespace
+      - standardizing punctuation
+      - expanding contractions (e.g., don't → do not)
+      - fixing common typos
+      - unicode normalization
+3. **Lemmatization / Stemming (optional)**:
+  - Reduce words to their base form to improve linguistic consistency:
+      - **Lemmatization**: reduces words to dictionary form (running → run)
+      - **Stemming**: uts words to a root segment (running → runn)
 
 ```mermaid
 graph TD
@@ -85,8 +102,6 @@ graph TD
         C --> D[Lemmatization / Stemming - optional]
       end
 ```
-
-
 
 ---
 
