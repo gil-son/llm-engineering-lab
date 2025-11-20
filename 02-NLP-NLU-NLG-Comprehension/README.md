@@ -9,9 +9,9 @@ This document provides a structured overview of the core components and steps in
 | Step | Description |
 | :--- | :--- |
 | **2.1.1 Text Processing / Cleaning / Normalization** | The initial process of preparing raw text by removing noise (e.g., HTML tags, special characters), converting text to a standard case (e.g., lowercasing), and fixing inconsistencies. |
-| **2.1.2 Tokenization** | Breaking down the text into smaller units (tokens), which can be words, subwords, or characters, to be used as input for a model. |
-| **2.1.3 Embeddings / Vectors** | Representing text tokens (words/subwords) as dense, numerical vectors (e.g., Word2Vec, BERT) that capture their semantic and contextual meaning. |
-| **2.1.4 Text Splitting** | Dividing long documents into smaller, manageable chunks that respect context boundaries, typically for retrieval or processing by models with context length limits. |
+| **2.1.2 Text Splitting** | Dividing long documents into smaller, manageable chunks that respect context boundaries, typically for retrieval or processing by models with context length limits. |
+| **2.1.3 Tokenization** | Breaking down the text into smaller units (tokens), which can be words, subwords, or characters, to be used as input for a model. |
+| **2.1.4 Embeddings / Vectors** | Representing text tokens (words/subwords) as dense, numerical vectors (e.g., Word2Vec, BERT) that capture their semantic and contextual meaning. |
 | **2.1.5 Ingestion (Vector Store)** | Storing the numerical text representations (embeddings) into a specialized database (Vector Store) for efficient search and retrieval operations (e.g., Pinecone, Chroma). |
 
 ---
@@ -54,9 +54,9 @@ This document provides a structured overview of the core components and steps in
 02-NLP-NLU-NLG-COMPREHENSION/
 ├── 02-1-NLP-Processing-Language/
 │   ├── 02-1-1-Text-Processing-Cleaning-Normalization.md
-│   ├── 02-1-2-Tokenization.md
-│   ├── 02-1-3-Embeddings-Vectors.md
-│   ├── 02-1-4-Text-Splitting.md
+│   ├── 02-1-2-Text-Splitting.md
+│   ├── 02-1-3-Tokenization.md
+│   ├── 02-1-4-Embeddings-Vectors.md
 │   └── 02-1-5-Ingestion-Vector-Store.md
 │
 ├── 02-2-NLU-UNDERSTADING-MEANING/

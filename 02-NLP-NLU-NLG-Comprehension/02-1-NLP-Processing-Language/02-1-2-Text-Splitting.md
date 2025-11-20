@@ -11,7 +11,7 @@
   </table>
 </div>
 
-## 02.1.4. Text Splitting 
+## 02.1.2. Text Splitting 
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
 

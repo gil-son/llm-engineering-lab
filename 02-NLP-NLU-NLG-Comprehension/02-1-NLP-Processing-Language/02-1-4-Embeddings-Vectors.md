@@ -12,7 +12,7 @@
   </table>
 </div>
 
-## 2.1.3. Embeddings Vectors
+## 2.1.4. Embeddings Vectors
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
 

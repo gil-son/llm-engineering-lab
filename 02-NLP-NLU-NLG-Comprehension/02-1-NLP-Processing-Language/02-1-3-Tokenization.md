@@ -11,7 +11,7 @@
   </table>
 </div>
 
-## 2.1.2. Tokenization
+## 2.1.3. Tokenization
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
 
