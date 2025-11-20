@@ -11,7 +11,7 @@
   </table>
 </div>
 
-## 02.1.1. Text Preprocessing / Cleaning / Normalization
+## 02.1.1. Text Preprocessing / Normalization
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
 
@@ -20,13 +20,6 @@
 Natural Language Processing (NLP) begins with **text preprocessing**, the stage where raw, unstructured text is cleaned and transformed into a consistent format suitable for computational models.
 
 This process ensures that models receive standardized input and can focus on learning semantics rather than handling noise or inconsistencies.
-
-Common preprocessing steps include:
-- Text normalization (lowercasing, removing punctuation)
-- Tokenization (splitting text into words or subwords)
-- Lemmatization and stemming (reducing words to their base forms)
-- Removing stop words and special characters
-- Handling misspellings, URLs, and emojis
 
 ---
 
@@ -50,12 +43,12 @@ Without preprocessing, downstream tasks like tokenization, embedding, or model i
 
 Core components of the text preprocessing pipeline include:
 
-1. **Text Cleaning** — remove URLs, punctuation, HTML tags, and emojis  
-2. **Normalization** — convert all text to lowercase, fix contractions, normalize whitespace  
+1. **Text Raw** — unprocessed input; may contain punctuation, emojis, typos, and irregular spacing
+2. **Normalization** — unify format (lowercasing, normalize whitespace, expand contractions) 
+3. **Splitting** — divide text into sentences or segments for structured processing.
 3. **Tokenization** — split text into words, subwords, or characters  
-4. **Stopword Removal** — eliminate frequent but low-information words like *“the”*, *“and”*, etc.  
-5. **Lemmatization / Stemming** — reduce words to their root or canonical form  
-6. **Vectorization** — transform text into numeric representations (TF-IDF, Word2Vec, embeddings)
+4. **Embeddings** — map tokens to dense numerical vectors encoding meaning.
+5. **Vectorization** — transform text into numeric representations (TF-IDF, Word2Vec, embeddings)
 
 ---
 
@@ -63,28 +56,37 @@ Core components of the text preprocessing pipeline include:
 
 ---
 
-The text preprocessing pipeline transforms unstructured input into clean, tokenized data that can be embedded and processed by models.
-
-#### Step-by-step Process
-
-1. Collect raw text from a source (e.g., documents, user input, web scraping)  
-2. Remove unwanted characters, links, and formatting  
-3. Normalize case and expand contractions  
-4. Tokenize into smaller units (words or subwords)  
-5. Apply stemming or lemmatization to unify words  
-6. Convert to numerical vectors or embeddings for use in downstream models
+The pipeline converts raw input into standardized, structured, vectorized data suitable for retrieval or modeling.:
 
 #### Simple Diagram
 
 ```mermaid
 graph TD
-    A[Raw Text] --> B[Text Cleaning]
-    B --> C[Normalization]
+    A[Raw Text] --> B[Normalization]
+    style B fill:#1971c2,stroke:#0369a1,stroke-width:2px
+    B --> C[Splitting]
     C --> D[Tokenization]
-    D --> E[Lemmatization / Stemming]
-    E --> F[Vectorization / Embedding]
-    F --> G[Processed Data for NLP Model]
+    D --> E[Embedding]
+    E --> F[Vector Store Ingestion]
 ```
+
+Let's go focus on Normalization step:
+
+1. **Text Cleaning**: remove unwanted elements such as punctuation, HTML tags, URLs, emojis, and other noise that does not contribute to meaning.
+2. **Text Normalization**: standardize the text by lowercasing, normalizing whitespace, expanding contractions (e.g., don't → do not), and applying consistent formatting rules.
+3. **Lemmatization / Stemming (optional)**: reduce words to their base or root forms to simplify vocabulary (e.g., running → run). This is optional and more common in classic NLP than in modern LLM pipelines.
+
+```mermaid
+graph TD
+    A[Raw Text] --> B[Text Cleaning]
+      %% ---------- Normalization ----------
+        subgraph Normalization
+        B --> C[Text Normalization]
+        C --> D[Lemmatization / Stemming - optional]
+      end
+```
+
+
 
 ---
 
