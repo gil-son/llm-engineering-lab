@@ -36,36 +36,93 @@ Why use it?
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2299/2299623.png" width="80"/> Components
 
--   **Chunk Size** --- max number of characters/tokens per split\
--   **Chunk Overlap** --- repeated text between chunks for context
-    continuity\
--   **Splitting Strategy**
-    -   by character\
-    -   by sentences\
-    -   by paragraphs\
-    -   by semantic boundaries
+Core components of the text preprocessing pipeline include:
+
+1. **Text Raw** — unprocessed input; may contain punctuation, emojis, typos, and irregular spacing
+2. **Normalization** — unify format (lowercasing, normalize whitespace, expand contractions) 
+3. **Splitting** — divide text into sentences or segments for structured processing.
+3. **Tokenization** — split text into words, subwords, or characters  
+4. **Embeddings** — map tokens to dense numerical vectors encoding meaning.
+5. **Vectorization** — transform text into numeric representations (TF-IDF, Word2Vec, embeddings)
+
+If we focus on **Splitting**:
+- **Choose Splitter**  
+  Select a splitting method or library (e.g., LangChain RecursiveCharacterTextSplitter, SentenceSplitter, MarkdownSplitter).  
+  The splitter defines the rules and hierarchy used when breaking the document.
+
+- **Chunk Size**  
+  Maximum number of **characters or tokens** per chunk.  
+  Character-based splitting is more common because it keeps text readable and compatible with downstream steps.
+
+- **Chunk Overlap**  
+  Amount of repeated text between chunks.  
+  Provides continuity so retrieval does not miss context around chunk boundaries.
+
+- **Split Text (Strategy)**  
+  How the splitter breaks the text:  
+  - By characters (most common in RAG)  
+  - By sentences  
+  - By paragraphs  
+  - By Markdown/HTML structure  
+  - By semantic similarity (advanced)
+
+- **Generate Chunks**
+Produce the final list of processed text segments.
+Each chunk includes:
+- The selected slice of text
+- The defined overlap (if any)
+- Clean boundaries aligned with the chosen strategy
+These chunks are now ready to be embedded or indexed, ensuring efficient and context-aware retrieval.
+
 ---
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7527/7527144.png" width="80"/> How it works?
 
-#### Step-by-step Process
+---
 
-1.  Load and normalize text\
-2.  Choose splitting strategy\
-3.  Define chunk size and overlap\
-4.  Apply split algorithm\
-5.  Validate semantic continuity\
-6.  Output chunks for further processing (embeddings, indexing, etc.)
+The pipeline converts raw input into standardized, structured, vectorized data suitable for retrieval or modeling.
+
+Let's go focus on Splitting step:
 
 #### Simple Diagram
 
-``` mermaid
+```mermaid
 graph TD
-    A[Raw Text] --> B[Choose Splitter]
-    B --> C[Define Chunk Size & Overlap]
-    C --> D[Split Text]
-    D --> E[Generate Chunks]
-    E --> F[Used by LLM / Vector Store / Pipelines]
+    A[Raw Text] --> B[Normalization]
+    B --> C[Splitting]
+    style C fill:#1971c2,stroke:#0369a1,stroke-width:2px
+    C --> D[Tokenization]
+    D --> E[Embedding]
+    E --> F[Vector Store Ingestion]
+```
+
+We received a block of Normalized Text, and now we start the Splitting process:
+1. **Choose Splitter**: Here we choose which strategy or library will break the text.
+This includes selecting tools such as RecursiveCharacterTextSplitter, SentenceSplitter, MarkdownSplitter, or any custom rule-based splitter.
+The splitter determines the hierarchy (characters → sentences → paragraphs → sections) and how strictly boundaries are respected.
+2. **Define Chunk Size & Overlap**: After deciding the splitter, we set the **maximum chunk length** (characters or tokens) and the overlap size.
+This controls how large each chunk can be and how much context should repeat across chunks to preserve meaning at boundaries.
+3. **Split Text**: The splitter now traverses the normalized text and applies its rules.
+Depending on the selected strategy, it may break text by:
+- character windows
+- sentence boundaries
+- paragraphs
+- markdown/HTML sections
+- or semantic boundaries
+The output at this stage is a list of raw segments before overlap insertion.
+5. **Generate Chunks**: Finally, the system assembles the processed segments into final chunks, applying overlap and trimming boundaries if needed.
+The result is a structured list of chunks ready for tokenization and embedding, each carrying consistent context and size.
+
+```mermaid
+graph TD
+    A[Raw Text] --> B[Normalization]
+    B --> C[Choose Splitter]
+      %% ---------- Splitting ----------
+        subgraph Splitting
+        C --> D[Define Chunk Size & Overlap]
+      	D --> E[Split Text]
+      	E --> F[Generate Chunks]
+      end
 ```
 
 ---
@@ -94,4 +151,8 @@ graph TD
 
 A few recommended resources to visualize:
 
-[In the soon]
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=8OJC21T2SL4" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/8OJC21T2SL4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBBVCNDPT9jYGN9hNcK7iOppT0xTQ"/>
+  </a>
+</div>
