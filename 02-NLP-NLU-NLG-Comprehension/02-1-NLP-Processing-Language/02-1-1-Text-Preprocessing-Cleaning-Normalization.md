@@ -122,4 +122,9 @@ graph TD
 
 A few recommended resources to visualize:
 
-[In the soon]
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=fLvJ8VdHLA0&t" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/fLvJ8VdHLA0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCjq8wRRS16ldH-MyWo-oAgb3SjzQ"/>
+  </a>
+</div>
+
