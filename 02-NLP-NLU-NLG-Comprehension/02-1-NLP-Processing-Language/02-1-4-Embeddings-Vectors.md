@@ -1,4 +1,4 @@
-# 2.1. NLP — Processing Language
+# 02.1. NLP — Processing Language
 
 
 <div align="center">
@@ -12,7 +12,7 @@
   </table>
 </div>
 
-## 2.1.4. Embeddings Vectors
+## 02.1.4. Embeddings Vectors
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
 

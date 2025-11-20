@@ -1,4 +1,4 @@
-# 2.1. NLP — Processing Language
+# 02.1. NLP — Processing Language
 
 <div align="center">
   <table>
@@ -11,7 +11,7 @@
   </table>
 </div>
 
-## 2.1.1. Text Preprocessing / Cleaning / Normalization
+## 02.1.1. Text Preprocessing / Cleaning / Normalization
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
 

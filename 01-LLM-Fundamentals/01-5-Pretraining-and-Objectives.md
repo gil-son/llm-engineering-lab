@@ -1,4 +1,4 @@
-# 1. Fundamentals
+# 01. Fundamentals
 
 <div align="center">
   <table>
@@ -27,7 +27,7 @@
 </div>
 <br/>
 
-## 1.5. Pretraining and Objectives
+## 01.5. Pretraining and Objectives
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
 
