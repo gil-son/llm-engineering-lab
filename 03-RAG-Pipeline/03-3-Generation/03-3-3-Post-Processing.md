@@ -3,10 +3,10 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/gil-son/experimental/refs/heads/main/matrizero/v001/src/assets/images/ingest.png" width="80"/></td>
-      <td align="center"><img src="https://raw.githubusercontent.com/gil-son/experimental/refs/heads/main/matrizero/v001/src/assets/images/retrivial.png" width="80"/></td>
+      <td align="center"><img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/rag1.png?ref_type=heads" width="80"/></td>
+      <td align="center"><img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/rag2.png?ref_type=heads" width="80"/></td>
       <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/5695/5695072.png" width="80"/></td>
-      <td align="center"><img src="https://raw.githubusercontent.com/gil-son/experimental/refs/heads/main/matrizero/v001/src/assets/images/feedback-loop.png" width="80"/></td>
+      <td align="center"><img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/rag4.png?ref_type=heads" width="80"/></td>
     </tr>
   </table>
 </div>
