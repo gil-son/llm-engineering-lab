@@ -2,9 +2,14 @@
 
 This document outlines the sequential steps and core components of a production-grade Retrieval-Augmented Generation (RAG) system, covering everything from initial data ingestion to final output and continuous feedback.
 
+## <img src="https://cdn-icons-png.flaticon.com/512/8592/8592294.png" width="10%"/>  Overview
+
+Retrieval-Augmented Generation (RAG) is an architecture designed to enhance Large Language Models (LLMs) by grounding their answers in external, factual, and up-to-date data sources. Instead of relying solely on the LLM’s internal parameters, RAG injects relevant **context** retrieved from a knowledge base—making responses more accurate, auditable, and domain-specific.
+
+A complete, production-grade RAG pipeline follows a four-stage lifecycle:
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/2342/2342156.png" width="80"/> 3.1. Ingest Documents (Build the Knowledge Base)
+### <img src="https://cdn-icons-png.flaticon.com/512/2342/2342156.png" width="80"/> 3.1. Ingest Documents (Build the Knowledge Base)
 
 This initial phase focuses on acquiring, preparing, and indexing the external data that the LLM will use to ground its answers, effectively creating the specialized knowledge base.
 
@@ -18,7 +23,7 @@ This initial phase focuses on acquiring, preparing, and indexing the external da
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/7778/7778942.png" width="80"/> 3.2. Retrivial (At Query Time)
+### <img src="https://cdn-icons-png.flaticon.com/512/7778/7778942.png" width="80"/> 3.2. Retrivial (At Query Time)
 
 This phase executes the "R" in RAG. It involves transforming the user's question into a searchable format and efficiently fetching the most relevant documents from the Vector Store.
 
@@ -30,7 +35,7 @@ This phase executes the "R" in RAG. It involves transforming the user's question
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/5695/5695072.png" width="80"/> 3.3. Generation (Answer Composition)
+### <img src="https://cdn-icons-png.flaticon.com/512/5695/5695072.png" width="80"/> 3.3. Generation (Answer Composition)
 
 This phase executes the "G" in RAG. It involves synthesizing the final answer by feeding the LLM with the original query and the newly retrieved, refined context.
 
@@ -42,7 +47,7 @@ This phase executes the "G" in RAG. It involves synthesizing the final answer by
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/4064/4064650.png" width="80"/> 3.4.Continuous Improvement
+### <img src="https://cdn-icons-png.flaticon.com/512/4064/4064650.png" width="80"/> 3.4.Continuous Improvement
 
 This final, cyclical phase ensures the RAG system remains accurate, relevant, and robust over time by continuously monitoring performance and updating components.
 
