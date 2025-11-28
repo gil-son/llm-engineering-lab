@@ -186,15 +186,14 @@ llm-engineering-lab/
 │
 ├── 07-LLM-Orchestration/                          # Orchestrating LLM workflows
 │   ├── README.md                                  # LLM Orchestration Overview
-│   ├── 07-1-Orchestration-Overview.md             # When & why to orchestrate
-│   ├── 07-2-MCP-in-Orchestration.md               # How MCP fits in
-│   ├── 07-3-Semantic-Kernel.md                    # Microsoft's Semantic Kernel
-│   ├── 07-4-LangChain-Concepts.md                 # Chains, agents, retrievers, memory
-│   ├── 07-5-LangGraph-Workflows.md                # Stateful workflows with LangGraph
-│   ├── 07-6-LangSmith-Debugging.md                # Debugging, tracing, evaluation
-│   ├── 07-7-LangFlow-Visual-Builder.md            # Visual builder for LangChain workflows
-│   ├── 07-8-LangFuse-Observability.md             # Monitoring & analytics in production
-│   └── 07-9-Orchestration-Comparison.md           # When to use each tool
+│   ├── 07-1-MCP-in-Orchestration.md               # How MCP fits in
+│   ├── 07-2-Semantic-Kernel.md                    # Microsoft's Semantic Kernel
+│   ├── 07-3-LangChain-Concepts.md                 # Chains, agents, retrievers, memory
+│   ├── 07-4-LangGraph-Workflows.md                # Stateful workflows with LangGraph
+│   ├── 07-5-LangSmith-Debugging.md                # Debugging, tracing, evaluation
+│   ├── 07-6-LangFlow-Visual-Builder.md            # Visual builder for LangChain workflows
+│   ├── 07-7-LangFuse-Observability.md             # Monitoring & analytics in production
+│   └── 07-8-Orchestration-Comparison.md           # When to use each tool
 │
 ├── 08-Agentic-AI-Systems/                         # Autonomous AI agents
 │   ├── README.md                                  # Agentic AI Systems Overview

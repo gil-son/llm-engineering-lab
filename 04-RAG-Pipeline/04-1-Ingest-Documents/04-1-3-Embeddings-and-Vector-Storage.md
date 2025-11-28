@@ -1,4 +1,4 @@
-# 03.1. Ingest Documents
+# 04.1. Ingest Documents
 
 <div align="center">
   <table>
@@ -11,7 +11,7 @@
   </table>
 </div>
 
-## 03.1.5. Vector Store Vector Database
+## 04.1.3. Embeddings-and-Vector-Storage
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
 

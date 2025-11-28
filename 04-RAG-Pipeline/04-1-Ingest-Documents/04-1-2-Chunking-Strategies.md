@@ -1,17 +1,17 @@
-# 03.2. Retrivial
+# 04.1. Ingest Documents
 
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/rag1.png?ref_type=heads" width="80"/></td>
-      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7778/7778942.png" width="80"/></td>
+      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2342/2342156.png" width="80"/></td>
+      <td align="center"><img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/rag2.png?ref_type=heads" width="80"/></td>
       <td align="center"><img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/rag3.png?ref_type=heads" width="80"/></td>
       <td align="center"><img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/rag4.png?ref_type=heads" width="80"/></td>
     </tr>
   </table>
 </div>
 
-## 03.2.2. Retriever
+## 04.1.2. Chunking Strategies
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
 
