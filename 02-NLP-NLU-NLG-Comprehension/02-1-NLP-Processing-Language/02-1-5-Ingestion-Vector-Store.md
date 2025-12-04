@@ -233,7 +233,7 @@ Some of the most widely used vector databases in production are:
 
 ### <img src="https://cdn-icons-png.flaticon.com/512/2147/2147809.png" width="80"> Code/Notebook/Projects
 
-[Coming soon]
+ - [NLP, NLU, NLG with RAG - Make Matthew notebook from bible](https://github.com/gil-son/llm-engineering-lab/tree/main/notebooks/02-NLP-NLU-NLG)
 
 ------------------------------------------------------------------------
 
