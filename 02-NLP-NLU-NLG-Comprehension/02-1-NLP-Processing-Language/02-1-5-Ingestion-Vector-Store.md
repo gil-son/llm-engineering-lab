@@ -241,4 +241,26 @@ Some of the most widely used vector databases in production are:
 
 Recommended to visualize vector databases:
 
-[Coming soon]
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=ySus5ZS0b94" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/ySus5ZS0b94/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDxjHR5gMhNlbMxYeGlN3xJvfrqzQ"/>
+  </a>
+</div>
+<hr/>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=VVNYQKDLY5s" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/VVNYQKDLY5s/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBF13-cmzqjrdZQp7RwwPuTOiA8ug"/>
+  </a>
+</div>
+<hr/>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=wgfSDrqYMJ4" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/wgfSDrqYMJ4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB4JQaAFm37tOg6cy7IM1CgJFCIQg"/>
+  </a>
+<hr/>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=gl1r1XV0SLw" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/gl1r1XV0SLw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBttw63Hso-v_85n755c8jMH1FjuA"/>
+  </a>
+</div>
+</div>
