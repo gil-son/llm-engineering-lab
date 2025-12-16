@@ -1,28 +1,36 @@
-# Introduction to the LLM Engineering Lab
+# Language AI Engineering Lab
 
 <p align="center">
   <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/devs.png?ref_type=heads" width="40%">
 </p>
 
-Welcome to the **LLM Engineering Lab**  – a comprehensive, structured repository designed to take you from LLM fundamentals to production-ready applications. Whether you're just starting with Large Language Models or looking to build sophisticated AI systems, this lab provides hands-on learning paths, practical implementations, and real-world projects to master the entire LLM engineering lifecycle.
+
+Welcome to the **Language AI Engineering Lab** — a comprehensive, structured repository designed to guide you from **human language fundamentals and NLP** through **Transformers, Large Language Models**, and into **production-ready Language AI systems**.
+
+Whether you are starting from the basics or aiming to build **scalable, real-world AI applications**, this lab offers **hands-on learning paths**, **practical implementations**, and **end-to-end projects** that cover the **entire Language AI engineering lifecycle** — from text processing and model architectures to retrieval, agents, orchestration, evaluation, and deployment.
+
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/4681/4681450.png" width="80"/>  Repository Summary
 
 
 It is important to understand the meaning and purpose of each section:
 
-- **01-LLM-Fundamentals**: Core LLM concepts, architectures, training strategies (fine-tuning, RLHF), and evaluation metrics. Understanding transformer models, pretraining objectives, and instruction tuning.
-- **02-NLP-NLU-NLG-Comprehension**: Foundations of natural language processing (tokenization, embeddings), understanding (intent extraction, entity recognition), and generation (coherent text output, decoding strategies).
-- **03-Prompt-Engineering:**: Advanced prompting strategies including zero-shot/one-shot/few-shot learning, chain-of-thought reasoning, prompt templates, optimization techniques, and comparison of prompt tuning vs prefix tuning methods.
-- **04-RAG Pipeline:**: Implementation of Retrieval-Augmented Generation techniques for context: Ingestion, Retrieval, Generation, Continuous Improvement.
-- **05-Context-Management:**: LLM context management, often referred to as context engineering, is the practice of strategically curating, organizing, and optimizing the information (context) provided to a Large Language Model within its limited "context window" to ensure relevant, accurate, and cost-effective responses.
-- **06-Model-Context-Protocol:**: Deep dive into Anthropic's Model Context Protocol (MCP) - the universal standard for connecting AI applications to data sources and tools. Covers MCP architecture, building custom servers (Python/TypeScript), security practices, and integration with orchestration frameworks.
-- **07-LLM-Orchestration:**: Tools and frameworks for orchestrating complex LLM workflows, including Model Context Protocol (MCP), Semantic Kernel, LangChain, LangGraph, LangSmith, LangFlow, and LangFuse for debugging and observability.
-- **08-Agentic-AI-Systems:**: Building autonomous AI agents with reasoning capabilities, tool integration (APIs, search, functions), planning strategies, and multi-agent collaboration patterns.
-- **09-Evaluation-and-Benchmarks:**: Comprehensive evaluation strategies including prompt testing, performance metrics (BLEU, ROUGE, perplexity), hallucination detection, latency/cost tracking, and distributed tracing with LangSmith.
-- **10-MLOps-and-Production:**: Productionizing LLM systems with MLOps best practices including experiment tracking with MLflow, model versioning and registry, continuous integration/deployment (CI/CD) pipelines, monitoring and logging in production, performance optimization, cost management, and integration with orchestration frameworks for robust, scalable deployments.
-- **11-LLM-Data-Engineering:**: Dataset lifecycle management including collection strategies, data cleaning and filtering techniques, formatting for model training, and synthetic data generation.
-- **12-AI-IVR-Specifics:**: Applying LLMs to Interactive Voice Response (IVR) systems, including speech-to-text/text-to-speech integration, dialogue management, and orchestration framework comparisons for voice applications.
+- **01-Human-Language-and-NLP**  
+   Foundations of NLP, NLU, and NLG: tokenization, embeddings, intent extraction, entity recognition, and text generation.
+- **02-Transformer-Architecture**  
+   Deep dive into transformers: attention, embeddings, positional encoding, feedforward layers, and why transformers work.
+- **03-LLM-Fundamentals**: Core LLM concepts, architectures, training strategies (fine-tuning, RLHF), and evaluation metrics. Understanding transformer models, pretraining objectives, and instruction tuning.
+- **04-Prompt-Engineering**  
+   Zero-shot, one-shot, few-shot prompting, chain-of-thought reasoning, prompt templates, and optimization techniques.
+- **05-RAG-Pipeline:**: Advanced prompting strategies including zero-shot/one-shot/few-shot learning, chain-of-thought reasoning, prompt templates, optimization techniques, and comparison of prompt tuning vs prefix tuning methods.
+- **06-Context-Management:**: LLM context management, often referred to as context engineering, is the practice of strategically curating, organizing, and optimizing the information (context) provided to a Large Language Model within its limited "context window" to ensure relevant, accurate, and cost-effective responses.
+- **07-Model-Context-Protocol:**: Deep dive into Anthropic's Model Context Protocol (MCP) - the universal standard for connecting AI applications to data sources and tools. Covers MCP architecture, building custom servers (Python/TypeScript), security practices, and integration with orchestration frameworks.
+- **08-LLM-Orchestration:**: Tools and frameworks for orchestrating complex LLM workflows, including Model Context Protocol (MCP), Semantic Kernel, LangChain, LangGraph, LangSmith, LangFlow, and LangFuse for debugging and observability.
+- **09-Agentic-AI-Systems:**: Building autonomous AI agents with reasoning capabilities, tool integration (APIs, search, functions), planning strategies, and multi-agent collaboration patterns.
+- **10-Evaluation-and-Benchmarks:**: Comprehensive evaluation strategies including prompt testing, performance metrics (BLEU, ROUGE, perplexity), hallucination detection, latency/cost tracking, and distributed tracing with LangSmith.
+- **11-MLOps-and-Production:**: Productionizing LLM systems with MLOps best practices including experiment tracking with MLflow, model versioning and registry, continuous integration/deployment (CI/CD) pipelines, monitoring and logging in production, performance optimization, cost management, and integration with orchestration frameworks for robust, scalable deployments.
+- **12-LLM-Data-Engineering:**: Dataset lifecycle management including collection strategies, data cleaning and filtering techniques, formatting for model training, and synthetic data generation.
+- **13-AI-IVR-Specifics:**: Applying LLMs to Interactive Voice Response (IVR) systems, including speech-to-text/text-to-speech integration, dialogue management, and orchestration framework comparisons for voice applications.
 - **projects/**: Practical and applied hands-on projects.
 - **notebooks/**: Jupyter notebooks for experiments and demonstrations.
 - **scripts/**: Utility scripts and helper functions.
