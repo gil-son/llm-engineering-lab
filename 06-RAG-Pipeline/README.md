@@ -57,28 +57,28 @@ This final, cyclical phase ensures the RAG system remains accurate, relevant, an
 
 ```mermaid
 graph TD
-    subgraph Ingestion["04-1. INGESTION"]
+    subgraph Ingestion["06-1. INGESTION"]
         A[Document Loading &<br/>Preprocessing] --> B[Chunking<br/>Strategies]
         B --> C[Embeddings &<br/>Vector Storage]
     end
     
     C --> D{Vector Database<br/>Ready}
     
-    subgraph Retrieval["04-2. RETRIEVAL"]
+    subgraph Retrieval["06-2. RETRIEVAL"]
         E[User Query] --> F[Retrieval<br/>Strategies]
         F --> G[Top-K Relevant<br/>Context Chunks]
     end
     
     D --> E
     
-    subgraph Generation["04-3. GENERATION"]
+    subgraph Generation["06-3. GENERATION"]
         H[Query + Context] --> I[Generation &<br/>Synthesis]
         I --> J[Final Answer<br/>with Citations]
     end
     
     G --> H
     
-    subgraph Evaluation["04-4. EVALUATION"]
+    subgraph Evaluation["06-4. EVALUATION"]
         K[Performance<br/>Monitoring] --> L[Evaluation &<br/>Optimization]
         L --> M[System Updates &<br/>Improvements]
     end
@@ -98,13 +98,13 @@ Overall Structure (RAG → INGEST → RETRIEVAL → GENERATION → FEEDBACK)
 The four-stage sequence (Ingestion, Retrieval, Generation, Feedback) is the canonical and most accurate way to describe the RAG architecture. It is perfect.
 
 ```
-04-RAG-Pipeline/
+06-RAG-Pipeline/
 │
 ├── README.md                                       # RAG overview, when to use, architecture diagram
 │
-├── 04-1-Ingestion/                                 # Build the Knowledge Base
+├── 06-1-Ingestion/                                 # Build the Knowledge Base
 │   │
-│   ├── 04-1-1-Document-Loading-and-Preprocessing.md
+│   ├── 06-1-1-Document-Loading-and-Preprocessing.md
 │   │     ├── Document Loading & Indexing
 │   │     │     • Local files (PDF, TXT, DOCX, CSV, Markdown)
 │   │     │     • APIs (external structured/unstructured data)
@@ -119,13 +119,13 @@ The four-stage sequence (Ingestion, Retrieval, Generation, Feedback) is the cano
 │   │           • Deduplication
 │   │           • Metadata extraction (author, date, source, tags)
 │   │
-│   ├── 04-1-2-Chunking-Strategies.md
+│   ├── 06-1-2-Chunking-Strategies.md
 │   │     ├── Fixed-size chunks (500-1000 tokens)
 │   │     ├── Overlapping chunks (preserve context)
 │   │     ├── Semantic/adaptive chunking
 │   │     └── Advanced: Parent-Child, Summary/Metadata
 │   │
-│   └── 04-1-3-Embeddings-and-Vector-Storage.md
+│   └── 06-1-3-Embeddings-and-Vector-Storage.md
 │         ├── Embedding Generation
 │         │     • Embedding models (OpenAI, HuggingFace, Cohere)
 │         │     • Converting chunks to vectors
@@ -151,9 +151,9 @@ The four-stage sequence (Ingestion, Retrieval, Generation, Feedback) is the cano
 │                     • Qdrant (production-grade)
 │                     • Milvus (scalable, enterprise)
 │
-├── 04-2-Retrieval/                                 # Query-Time Operations
+├── 06-2-Retrieval/                                 # Query-Time Operations
 │   │
-│   └── 04-2-1-Retrieval-Strategies.md
+│   └── 06-2-1-Retrieval-Strategies.md
 │         ├── Query Processing
 │         │     • Query embedding
 │         │     • Query transformation (decomposition, rewriting)
@@ -171,9 +171,9 @@ The four-stage sequence (Ingestion, Retrieval, Generation, Feedback) is the cano
 │               • Context refinement (remove redundant text)
 │               • Top-K selection strategies
 │
-├── 04-3-Generation/                                # Answer Composition
+├── 06-3-Generation/                                # Answer Composition
 │   │
-│   └── 04-3-1-Generation-and-Synthesis.md
+│   └── 06-3-1-Generation-and-Synthesis.md
 │         ├── Context Injection
 │         │     • Combining retrieved documents
 │         │     • Context window management
@@ -191,9 +191,9 @@ The four-stage sequence (Ingestion, Retrieval, Generation, Feedback) is the cano
 │               • Confidence scoring
 │               • Chain-of-thought reasoning traces
 │
-└── 04-4-Evaluation/                                # Continuous Improvement
+└── 06-4-Continuous-Improvement/                                # Continuous Improvement
     │
-    └── 04-4-1-Evaluation-and-Optimization.md
+    └── 06-4-1-Evaluation-and-Optimization.md
           ├── Retrieval Evaluation
           │     • Precision, recall, F1
           │     • Mean Reciprocal Rank (MRR)
