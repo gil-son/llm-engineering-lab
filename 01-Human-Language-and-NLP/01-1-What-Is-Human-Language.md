@@ -104,6 +104,8 @@ These use cases rely on a deep understanding of how language encodes meaning and
 - [IBM](https://www.ibm.com/think/topics/natural-language-processing)
 - [AWS](https://aws.amazon.com/what-is/nlp/)
 
+---
+
 ### <img src="https://cdn-icons-png.flaticon.com/512/2112/2112889.png" width="80"> Videos
 
 A few recommended resources to visualize:
