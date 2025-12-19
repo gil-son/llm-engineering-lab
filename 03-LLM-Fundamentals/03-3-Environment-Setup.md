@@ -108,7 +108,7 @@ HUGGINGFACEHUB_API_TOKEN=your_hf_token
 <details>
   <summary>Option 2: Install a local LLM runtime, such as Ollama</summary>
 
-  --- 
+  <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/blue-ollama.png?ref_type=heads" width="60"/>
   
   Ollama is a free Large Language Model (LLM) with reduced capacity
 compared to commercial models, but it works very well for **practice,
