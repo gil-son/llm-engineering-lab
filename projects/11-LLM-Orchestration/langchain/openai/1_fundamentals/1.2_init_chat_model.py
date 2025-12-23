@@ -1,5 +1,6 @@
 from langchain.chat_models import init_chat_model
 from dotenv import load_dotenv
+
 load_dotenv() # Load OPENAI_API_KEY from .env file
 
 model = init_chat_model(
