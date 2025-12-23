@@ -1,0 +1,5 @@
+langchain==1.2.0
+langchain-community==0.4.1
+langchain-core==1.2.4
+langchain-ollama==1.0.1
+ollama==0.6.1
