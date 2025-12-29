@@ -8,7 +8,10 @@ prompt = ChatPromptTemplate.from_template(
 )
 
 # 2. Initialize the model
-model = ChatOpenAI(model="gpt-4.1-nano", temperature=0.5)
+model = ChatOpenAI(
+    model="gpt-4.1-nano",
+    temperature=0.5
+)
 
 # 3. Create the chain
 chain = prompt | model
