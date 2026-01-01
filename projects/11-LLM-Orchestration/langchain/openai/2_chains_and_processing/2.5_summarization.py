@@ -52,6 +52,8 @@ for part in parts:
      print(part.page_content)
      print("-"*30)
 
+print(f"\nNow, waiting LLM to summarize {len(parts)} parts...\n")
+
 # Initialize the language model
 llm = ChatOpenAI(model="gpt-4.1-nano", temperature=0)
 

@@ -60,6 +60,8 @@ print("\nDOCUMENTS PARTS WITH CHUNK(250) AND OVERLAP(70):\n")
 for i, part in enumerate(parts[:10], start=1):
     print(f"DOCUMENT PART {i}:\n{part.page_content}\n{'-'*30}")
 
+print(f"\nNow, waiting LLM to summarize {len(parts)} parts...\n")
+
 # Initialize the language model
 llm = ChatOpenAI(model="gpt-4.1-nano", temperature=0)
 

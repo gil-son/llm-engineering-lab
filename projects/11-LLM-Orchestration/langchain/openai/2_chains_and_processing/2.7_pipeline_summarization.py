@@ -54,6 +54,8 @@ print("\nDOCUMENTS PARTS WITH CHUNK(250) AND OVERLAP(50):\n")
 for i, part in enumerate(parts[:10], start=1):
     print(f"DOCUMENT PART {i}:\n{part.page_content}\n{'-'*30}")
 
+print(f"\nNow, starting 'pipeline' to summarize {len(parts)} parts...\n")
+
 # Initialize the language model
 llm = ChatOpenAI(model="gpt-4.1-nano", temperature=0)
 
@@ -77,6 +79,6 @@ reduce_chain = reduce_prompt | llm | StrOutputParser()
 prepare_reduce_input = RunnableLambda(lambda summaries: {"context": "\n".join(summaries)})
 pipeline = map_stage | prepare_reduce_input | reduce_chain
 
-result = pipeline.invoke(parts)
+result = pipeline.invoke(parts) # parts is a list of Document objects. It will be processed in the map stage.
 
 print("\n RESUMED ALL SUMMARIES:\n", result["output_text"])
