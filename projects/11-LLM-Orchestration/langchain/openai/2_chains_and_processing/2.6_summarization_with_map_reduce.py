@@ -68,7 +68,7 @@ llm = ChatOpenAI(model="gpt-4.1-nano", temperature=0)
 # Create the summarization chain
 # Using "map_reduce" method for summarization
 # if verbose=True, it shows the LLM calls with prompts and responses
-chain_sumarize = load_summarize_chain(llm, chain_type="map_reduce", verbose=False)
+chain_sumarize = load_summarize_chain(llm, chain_type="map_reduce", verbose=False) # prompt=PROMPT as optional argument
 
 # Invoke the chain on the document parts
 result = chain_sumarize.invoke({"input_documents": parts})
