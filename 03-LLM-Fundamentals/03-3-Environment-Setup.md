@@ -248,8 +248,8 @@ graph TD
 
 ### <img src="https://cdn-icons-png.flaticon.com/512/2147/2147809.png" width="80"> Code/Notebook/Projects
 
-- [requirements.txt](https://github.com/gil-son/llm-engineering-lab/blob/main/projects/04-langchain/basic-openai-connection-with-langserve-and-client/requirements.txt): this is an example file with necessaries labaries to be installed via venv
-- [environment.yml](https://github.com/gil-son/llm-engineering-lab/blob/main/notebooks/03-RAG/environment.yml): this is an example file with necessaries labaries to be installed via conda (anaconda)
+- [requirements.txt](https://github.com/gil-son/language-ai-engineering-lab/blob/main/projects/11-LLM-Orchestration/langchain/ollama/requirements.txt): this is an example file with necessaries labaries to be installed via venv
+- [environment.yml](https://github.com/gil-son/language-ai-engineering-lab/blob/main/notebooks/06-RAG/environment.yml): this is an example file with necessaries labaries to be installed via conda (anaconda)
 
 ---
 

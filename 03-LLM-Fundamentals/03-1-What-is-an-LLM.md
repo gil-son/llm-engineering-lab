@@ -166,8 +166,8 @@ Despite their power, LLMs have important limitations:
 
 ### <img src="https://cdn-icons-png.flaticon.com/512/2147/2147809.png" width="80"> Code/Notebook/Projects
 
-- [Connect with an LLM using LangChain](https://github.com/gil-son/llm-engineering-lab/tree/main/projects/04-langchain)
-- [Create an LLM from scratch](https://github.com/gil-son/llm-engineering-lab/tree/main/notebooks/01-transformer-lm)
+- [Connect with an LLM using LangChain](https://github.com/gil-son/language-ai-engineering-lab/tree/main/projects/11-LLM-Orchestration)
+- [Create an LLM from scratch](https://github.com/gil-son/language-ai-engineering-lab/tree/main/notebooks/02-Transformers)
 
 ---
 
