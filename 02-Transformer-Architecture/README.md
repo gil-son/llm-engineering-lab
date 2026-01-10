@@ -236,7 +236,7 @@ Transformers are used in a wide range of applications, such as:
 ---
 
 ### <img src="https://cdn-icons-png.flaticon.com/512/2956/2956457.png" width="80"> Contents
-- [DataCamp - How Transformers Work](https://www.geeksforgeeks.org/nlp/natural-language-processing-overview)
+- [DataCamp - How Transformers Work](https://www.datacamp.com/tutorial/how-transformers-work)
 
 
 ---
