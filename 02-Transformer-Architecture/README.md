@@ -22,7 +22,7 @@ Transformers were originally created to solve problems where one sequence of inf
 
 ### What Are Transformer Models?
 
-A Transformer is a type of artificial intelligence that learns how words relate to each other so it can understand and generate text that feels natural to humans.
+A Transformer is a type of artificial intelligence that learns how words relate to each other so it can understand and generate text that feels natural to humans ([NLP](https://github.com/gil-son/language-ai-engineering-lab/blob/main/01-Human-Language-and-NLP/01-1-What-Is-Human-Language.md)).
 
 In simple terms:
 
@@ -248,13 +248,5 @@ A few recommended resources to visualize:
 <div align="center">
   <a href="https://www.youtube.com/watch?v=ZXiruGOCn9s&pp=ygUVaG93IHRyYW5zZm9ybWVycyB3b3Jr" target="_blank">
       <img width="640" height="360" src="https://i.ytimg.com/vi/ZXiruGOCn9s/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCWjNC9IqYn1RlRNtOvomVTrl24IA"/>
-  </a>
-</div>
-
----
-
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=zxQyTK8quyY" target="_blank">
-      <img width="640" height="360" src="https://i.ytimg.com/vi/zxQyTK8quyY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAr1eNdTMk0XByj5tnHCuK969pG0w"/>
   </a>
 </div>
