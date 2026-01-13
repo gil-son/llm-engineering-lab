@@ -13,9 +13,12 @@
   </table>
 </div>
 
+## 02.1 What is a Transformer?
+
 ---
 
 ### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7963/7963858.png" width="80"/> Introduction
+
 Transformers were originally created to solve problems where one sequence of information needs to be turned into another. A classic example is translating text from one language to another. Because they transform an input into an output, they are “Transformers”.
 
 ---
@@ -38,6 +41,23 @@ They focus on **relationships** between words. For example, they learn which wor
 <img src="https://github.com/user-attachments/assets/ab49b7e9-cf48-4544-a5e1-d1091291e3ac" width="60%" />
 <p>Image by the Datacamp</p>
 </div>
+
+---
+
+## <img src="https://cdn-icons-png.flaticon.com/512/5769/5769639.png" width="10%"/>  Historical Context
+
+
+Transformers are a relatively recent but very important development in artificial intelligence.
+
+They were first introduced in 2017 by researchers at Google in a paper called “Attention Is All You Need.” This paper described a new way for computers to understand and generate language more effectively.
+
+Soon after, developers began turning this idea into real software, making it possible for others to experiment with and build on it. This helped the idea spread quickly across the AI community.
+
+The impact was immediate. Transformers made it much easier for computers to understand context and meaning in text. Because of this, they became the foundation for many powerful language systems that followed, including models like **BERT**.
+
+By **2020**, Transformers reached the public spotlight with the release of GPT-3 by OpenAI. People around the world started using it to write stories, poems, computer code, websites, and more. For many, this was the first time AI felt creative and conversational.
+
+In **2021**, researchers described these systems as **foundation models**, meaning they are basic building blocks that many other AI applications are built on. Today, Transformers sit at the core of modern AI and have changed how machines understand and work with human language.
 
 ---
 
@@ -204,16 +224,29 @@ Think of a **human translator**:
 
 ---
 
-### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2299/2299623.png" width="80"/> Components
-Key components of the Transformer architecture include:
-- Token Embeddings  
-- Positional Encoding  
-- Multi-Head Self-Attention  
-- Scaled Dot-Product Attention  
-- Feed-Forward Neural Networks  
-- Residual Connections  
-- Layer Normalization  
-- Encoder and Decoder Blocks  
+### <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2408/2408828.png" width="80"/> Real-Life Transformer Models
+
+#### BERT
+
+Google's 2018 release of BERT, an open-source natural language processing framework, revolutionized NLP with its unique bidirectional training, which enables the model to have more context-informed predictions about what the next word should be.
+
+By understanding context from all sides of a word, BERT outperformed previous models in tasks like question-answering and understanding ambiguous language. Its core uses Transformers, connecting each output and input element dynamically.
+
+BERT, pre-trained on Wikipedia, excelled in various NLP tasks, prompting Google to integrate it into its search engine for more natural queries. This innovation sparked a race to develop advanced language models and significantly advanced the field's ability to handle complex language understanding.
+
+#### LaMDA
+
+LaMDA (Language Model for Dialogue Applications) is a Transformer-based model developed by Google, designed specifically for conversational tasks, and launched during the 2021 Google I/O keynote. They are designed to generate more natural and contextually relevant responses, enhancing user interactions in various applications.
+
+LaMDA's design enables it to understand and respond to a wide range of topics and user intents, making it ideal for applications in chatbots, virtual assistants, and other interactive AI systems where a dynamic conversation is key.
+
+This focus on conversational understanding and response marks LaMDA as a significant advancement in the field of natural language processing and AI-driven communication.
+
+### GPT and ChatGPT
+
+GPT and ChatGPT, developed by OpenAI, are advanced generative models known for their ability to produce coherent and contextually relevant text. GPT-1 was its first model launched in June 2018 and GPT-3, one of the most impactful models, was launched two years later in 2020.
+
+These models are adept at a wide range of tasks, including content creation, conversation, language translation, and more. GPT's architecture enables it to generate text that closely resembles human writing, making it useful in applications like creative writing, customer support, and even coding assistance. ChatGPT, a variant optimized for conversational contexts, excels in generating human-like dialogue, enhancing its application in chatbots and virtual assistants.
 
 ---
 
@@ -232,6 +265,7 @@ Transformers are used in a wide range of applications, such as:
 ### <img src="https://cdn-icons-png.flaticon.com/512/2147/2147809.png" width="80"> Code/Notebook/Projects
 
 - [Build transformer from Scratch](https://github.com/gil-son/language-ai-engineering-lab/tree/main/notebooks/02-Transformers)
+- [Building a transformer with Pytorch](https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch)
 
 ---
 
