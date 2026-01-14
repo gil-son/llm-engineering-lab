@@ -3,9 +3,9 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/9722/9722973.png" width="80"/></td>
-      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/11149/11149936.png" width="80"/></td>
-      <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2351/2351559.png" width="80"/></td>
+      <td align="center"><img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/hi.png?ref_type=heads" width="80"/></td>
+      <td align="center"><img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/abc.png?ref_type=heads" width="80"/></td>
+      <td align="center"><img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/encode.png?ref_type=heads" width="80"/></td>
       <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2582/2582078.png" width="80"/></td>
       <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/6062/6062146.png" width="80"/></td>
       <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/10817/10817413.png" width="80"/></td>
