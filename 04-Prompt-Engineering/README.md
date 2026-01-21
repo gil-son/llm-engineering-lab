@@ -324,3 +324,25 @@ Document goals, assumptions, and failure cases.
 - Data extraction and transformation: Building a prompt that extracts structured fields (name, date, total amount) from unstructured invoices or emails and outputs them as clean JSON or a CSV-ready format.
 - Code generation and review: Writing a prompt that asks the model to generate a REST API in Python, include unit tests, follow a specific style guide, and then review the code for security issues and performance improvements.
 - Decision support systems: Designing a prompt that summarizes key metrics from sales data, compares different strategies, highlights risks, and recommends the best option with a short justification.
+
+
+
+---
+
+### <img src="https://cdn-icons-png.flaticon.com/512/2112/2112889.png" width="80"> Videos
+
+A few recommended resources to visualize:
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=sW5xoicq5TY" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/sW5xoicq5TY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAZD_GK6Y-d4_POvKW6xTNj1duPQQ"/>
+  </a>
+</div>
+
+---
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=1c9iyoVIwDs" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/1c9iyoVIwDs/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDX-KjQUVawkSqObSHDBOgrihqKDw"/>
+  </a>
+</div>
